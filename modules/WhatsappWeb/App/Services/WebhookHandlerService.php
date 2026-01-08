@@ -79,22 +79,30 @@ class WebhookHandlerService
         } elseif ($status == 'close') {
             $this->platform->update(['status' => 'disconnected']);
         }
+        
+        // Forward connection status to external webhook
+        $this->forwardToExternalWebhook();
     }
 
     public function chatsUpsert()
     {
         $this->liveChatNotifyEvent();
+        $this->forwardToExternalWebhook();
     }
 
     public function chatsUpdate()
     {
         $this->liveChatNotifyEvent();
+        $this->forwardToExternalWebhook();
     }
 
     public function messagesUpdate()
     {
         $this->liveChatNotifyEvent();
         UpdateMessageStatusJob::dispatch($this->payload);
+        
+        // Forward to external webhook if configured
+        $this->forwardToExternalWebhook();
     }
 
     public function messagesUpsert()
@@ -110,6 +118,7 @@ class WebhookHandlerService
     public function sendMessage()
     {
         $this->liveChatNotifyEvent();
+        $this->forwardToExternalWebhook();
     }
 
     private function liveChatNotifyEvent()
