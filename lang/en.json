@@ -1117,5 +1117,11 @@
   "Email Verification": "Email Verification",
   "HOST": "HOST",
   "Number is verified successfully": "Number is verified successfully",
-  "Something went wrong": "Something went wrong"
+  "Something went wrong": "Something went wrong",
+  "External Webhook URL": "External Webhook URL",
+  "Forward incoming messages to this external webhook URL (optional)": "Forward incoming messages to this external webhook URL (optional)",
+  "External Webhook": "External Webhook",
+  "Configured": "Configured",
+  "Not Set": "Not Set",
+  "Webhook URL": "Webhook URL"
 }
