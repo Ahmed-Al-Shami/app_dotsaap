@@ -136,6 +136,27 @@ const verifyNumber = (uuid) => {
               platform.meta?.auto_reply_method
               }}</span>
           </div>
+          <div class="flex flex-col rounded-lg bg-gray-50 p-3 dark:bg-gray-800/50">
+            <span class="text-xs font-medium text-gray-500">{{ trans('External Webhook') }}</span>
+            <span class="text-sm font-semibold"
+              :class="platform.meta?.webhook_callback_url ? 'text-emerald-600' : 'text-gray-400'">
+              {{ platform.meta?.webhook_callback_url ? trans('Configured') : trans('Not Set') }}
+            </span>
+          </div>
+        </div>
+
+        <div v-if="platform.meta?.webhook_callback_url" class="mt-2 rounded-lg bg-blue-50 p-3 dark:bg-blue-900/20">
+          <div class="flex items-start gap-2">
+            <Icon icon="bx:cloud-upload" class="mt-0.5 text-lg text-blue-500" />
+            <div class="flex flex-col flex-1 min-w-0">
+              <span class="text-xs font-medium text-blue-700 dark:text-blue-400">{{
+                trans('Webhook URL')
+              }}</span>
+              <span class="text-xs text-blue-900 dark:text-blue-100 truncate" :title="platform.meta?.webhook_callback_url">{{
+                platform.meta?.webhook_callback_url
+              }}</span>
+            </div>
+          </div>
         </div>
 
         <div v-if="platform.meta?.send_welcome_message" class="mt-2 rounded-lg bg-purple-50 p-3 dark:bg-purple-900/20">
