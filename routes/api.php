@@ -39,6 +39,10 @@ Route::middleware('auth:sanctum')->group(function () {
 Route::get('options/{key}', OptionController::class);
 
 
+Route::post('/deploy', function () {
+    exec('/home/app.dotsaap.site/deploy.sh');
+    return response()->json(['status' => 'deployed']);
+});
 
 
 
