@@ -43,6 +43,9 @@ class PlatformConfigRequest extends FormRequest
                 'nullable',
                 'max:2000',
             ],
+
+            // External webhook callback URL
+            'webhook_callback_url' => ['nullable', 'url', 'max:500'],
         ];
 
         if (in_array($this->input('module'), ['whatsapp', 'telegram'])) {

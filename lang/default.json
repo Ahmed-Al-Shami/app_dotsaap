@@ -1092,5 +1092,7 @@
   "Revert to Backup": "Revert to Backup",
   "Revert": "Revert",
   "Warning": "Warning",
-  "Are you sure you want to continue?": "Are you sure you want to continue?"
+  "Are you sure you want to continue?": "Are you sure you want to continue?",
+  "External Webhook URL": "External Webhook URL",
+  "Forward incoming messages to this external webhook URL (optional)": "Forward incoming messages to this external webhook URL (optional)"
 }

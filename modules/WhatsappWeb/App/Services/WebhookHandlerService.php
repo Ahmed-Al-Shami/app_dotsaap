@@ -5,6 +5,7 @@ namespace Modules\WhatsappWeb\App\Services;
 use App\Events\LiveChatNotifyEvent;
 use App\Models\Platform;
 use Illuminate\Support\Facades\Artisan;
+use Modules\WhatsappWeb\App\Jobs\ForwardToExternalWebhookJob;
 use Modules\WhatsappWeb\App\Jobs\HandleIncomingMessageJob;
 use Modules\WhatsappWeb\App\Jobs\UpdateMessageStatusJob;
 
@@ -101,6 +102,9 @@ class WebhookHandlerService
         $this->liveChatNotifyEvent();
         HandleIncomingMessageJob::dispatch($this->payload);
         UpdateMessageStatusJob::dispatch($this->payload);
+        
+        // Forward to external webhook if configured
+        $this->forwardToExternalWebhook();
     }
 
     public function sendMessage()
@@ -111,5 +115,17 @@ class WebhookHandlerService
     private function liveChatNotifyEvent()
     {
         LiveChatNotifyEvent::broadcast($this->payload, $this->platform->owner_id, 'whatsapp-web')->toOthers();
+    }
+
+    /**
+     * Forward incoming messages to external webhook URL if configured
+     */
+    private function forwardToExternalWebhook()
+    {
+        $webhookUrl = $this->platform->getMeta('webhook_callback_url');
+        
+        if (!empty($webhookUrl)) {
+            ForwardToExternalWebhookJob::dispatch($this->platform, $this->payload);
+        }
     }
 }

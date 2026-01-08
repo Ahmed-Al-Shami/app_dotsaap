@@ -37,6 +37,7 @@ const form = useForm({
   auto_reply_dataset_name: '',
   send_welcome_message: false,
   welcome_message_template: '',
+  webhook_callback_url: '',
 })
 
 watch(
@@ -53,6 +54,7 @@ watch(
       form.auto_reply_dataset_name = meta.auto_reply_dataset_name
       form.send_welcome_message = meta.send_welcome_message
       form.welcome_message_template = meta.welcome_message_template
+      form.webhook_callback_url = meta.webhook_callback_url || ''
     }
   }
 )
@@ -147,6 +149,20 @@ const selectedAutoReplyService = computed(() => {
           <textarea v-model="form.welcome_message_template" class="input" rows="5"></textarea>
           <small>{{ trans('This message will be sent to new users') }}</small>
         </div>
+      </div>
+
+      <!-- External Webhook URL -->
+      <div class="mb-2">
+        <label for="webhook_callback_url" class="label">{{ trans('External Webhook URL') }}</label>
+        <input 
+          type="url" 
+          class="input" 
+          v-model="form.webhook_callback_url" 
+          placeholder="https://your-domain.com/webhook"
+        />
+        <small class="text-gray-600 dark:text-gray-400">
+          {{ trans('Forward incoming messages to this external webhook URL (optional)') }}
+        </small>
       </div>
 
       <slot />
