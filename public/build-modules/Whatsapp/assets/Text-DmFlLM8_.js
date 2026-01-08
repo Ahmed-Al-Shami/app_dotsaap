@@ -1,0 +1,1 @@
+import{c as s,o,t as c,n as m}from"./app-BYM_31EU.js";const l={__name:"Text",props:["message"],setup(e){return(n,r)=>{var t,a;return o(),s("p",{class:m({"text-gray-600 dark:text-white":e.message.direction=="out"})},c(((t=e.message.body)==null?void 0:t.body)??((a=e.message.body)==null?void 0:a.text)??e.message.body),3)}}};export{l as default};
