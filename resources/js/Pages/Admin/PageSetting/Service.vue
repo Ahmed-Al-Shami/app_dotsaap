@@ -28,7 +28,6 @@ const removeCounterItem = (index) => {
   <form
     method="POST"
     @submit.prevent="optionUpdate.submit('service_page', formData)"
-    enctype="multipart/form-data"
   >
     <div class="mb-10 mt-2 rounded border p-3 dark:border-gray-600">
       <h6>{{ trans('Service List') }}</h6>

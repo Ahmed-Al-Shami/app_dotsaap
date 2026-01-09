@@ -15,7 +15,6 @@ const optionUpdate = useOptionUpdateStore()
   <form
     method="POST"
     @submit.prevent="optionUpdate.submit('pricing_page', formData)"
-    enctype="multipart/form-data"
   >
     <div class="mb-10 mt-2 space-y-2 rounded border p-3 dark:border-gray-600">
       <TextInput v-model="formData.title" :label="trans('Title')" />

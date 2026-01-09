@@ -20,7 +20,6 @@ onBeforeMount(() => {
   <form
     method="POST"
     @submit.prevent="optionUpdate.submit('team_page', formData)"
-    enctype="multipart/form-data"
   >
     <h6>{{ trans('Team List') }}</h6>
     <div class="mb-10 mt-2 rounded border p-3 dark:border-gray-600">

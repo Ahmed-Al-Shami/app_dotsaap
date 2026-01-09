@@ -9,9 +9,7 @@
     "build:whatsapp-web": "vite build --config modules/WhatsappWeb/vite.config.js",
     "build:web-scraping": "vite build --config modules/WebScraping/vite.config.js",
     "build:qa-reply": "vite build --config modules/QAReply/vite.config.js",
-    "build:ai-reply": "vite build --config modules/AiReply/vite.config.js",
     "build:ai-training": "vite build --config modules/AiTraining/vite.config.js",
-    "build:flow": "vite build --config modules/Flow/vite.config.js",
     "build:number-checker": "vite build --config modules/NumberChecker/vite.config.js"
   },
   "devDependencies": {

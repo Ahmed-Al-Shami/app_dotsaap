@@ -13,7 +13,6 @@ const optionUpdate = useOptionUpdateStore()
   <form
     method="POST"
     @submit.prevent="optionUpdate.submit('blog_page', formData)"
-    enctype="multipart/form-data"
   >
     <div class="mb-10 mt-2 rounded border p-3 dark:border-gray-600">
       <h6>{{ trans('Sidebar Card') }}</h6>

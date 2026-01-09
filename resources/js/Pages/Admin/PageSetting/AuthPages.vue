@@ -19,7 +19,7 @@ onBeforeMount(() => {
   <form
     method="POST"
     @submit.prevent="store.submit('auth_pages', form)"
-    enctype="multipart/form-data"
+
   >
     <h6>{{ trans('Left Banner Section (All pages)') }}</h6>
     <div class="mb-10 mt-2 rounded border p-3 dark:border-gray-600">

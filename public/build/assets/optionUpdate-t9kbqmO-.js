@@ -1,1 +1,0 @@
-import{G as u,k as i,N as r}from"./app-DJ-fD94H.js";const c=u("optionUpdate",()=>{const e=i(!1);function s(a,t,n=[]){e.value=!0,n==null||n.forEach(o=>{t[o]instanceof File||(t[o]=null)}),r.post(route("admin.page-settings.update",a),t,{onFinish:()=>e.value=!1})}return{processing:e,submit:s}});export{c as u};

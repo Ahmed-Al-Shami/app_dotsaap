@@ -14,13 +14,16 @@ const optionUpdate = useOptionUpdateStore()
 if (!formData.socials) {
   formData.socials = {}
 }
+
+if (!formData.fancy_banner_six) {
+  formData.fancy_banner_six = {}
+}
 </script>
 
 <template>
   <form
     method="POST"
     @submit.prevent="optionUpdate.submit('primary_data', formData)"
-    enctype="multipart/form-data"
   >
     <h6>{{ trans('Primary Settings') }}</h6>
     <div class="mb-10 mt-2 rounded border p-3 dark:border-gray-600">
