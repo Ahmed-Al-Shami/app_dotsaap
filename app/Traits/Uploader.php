@@ -6,6 +6,7 @@ use App\Exceptions\SessionException;
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 
 use function Livewire\str;
@@ -43,6 +44,13 @@ trait Uploader
 
         $uploadedFile = $request->file($input);
         $extension = $uploadedFile->extension();
+        Log::info('Save File: Starting upload', [
+            'input' => $input,
+            'original_name' => $uploadedFile->getClientOriginalName(),
+            'extension' => $extension,
+            'size' => $uploadedFile->getSize()
+        ]);
+        
         $this->validateFileExt($extension);
 
         $randomString = Str::random(20);
@@ -55,6 +63,7 @@ trait Uploader
         Storage::put($filePath, $uploadedFile->get());
 
         $url = Storage::url($filePath);
+        Log::info('Save File: Success', ['file_path' => $filePath, 'url' => $url]);
 
         if ($absolutePath || env('APP_ENV') === 'demo') {
             return '/'.parse_url($filePath, PHP_URL_PATH);
@@ -111,17 +120,40 @@ trait Uploader
         }
         $files = $request->file($input);
         $filePaths = [];
+        
+        Log::info('Multiple Save File: Starting upload', [
+            'input' => $input,
+            'files_count' => count($files)
+        ]);
 
-        foreach ($files as $file) {
+        foreach ($files as $index => $file) {
             $extension = $file->extension();
+            Log::info('Multiple Save File: Processing file', [
+                'index' => $index,
+                'original_name' => $file->getClientOriginalName(),
+                'extension' => $extension,
+                'size' => $file->getSize()
+            ]);
+            
             $this->validateFileExt($extension);
             $filename = now()->timestamp.Str::random(20).'.'.$extension;
             $directoryPath = 'uploads'.date('/y').'/'.date('m');
             $directory = env('FILE_UPLOAD_PATH', $directoryPath);
-            $filePath = "$directory/$filename.$extension";
+            $filePath = "$directory/$filename";
             Storage::put($filePath, file_get_contents($file));
-            $filePaths[] = Storage::url($filePath);
+            $url = Storage::url($filePath);
+            $filePaths[] = $url;
+            
+            Log::info('Multiple Save File: File uploaded', [
+                'index' => $index,
+                'file_path' => $filePath,
+                'url' => $url
+            ]);
         }
+        
+        Log::info('Multiple Save File: All files uploaded successfully', [
+            'total_files' => count($filePaths)
+        ]);
 
         return $filePaths;
     }
@@ -157,21 +189,42 @@ trait Uploader
 
         if (! ($input instanceof UploadedFile)) {
             if (! request()->hasFile($input)) {
+                Log::info('Upload File: No file found in request', ['input' => $input]);
                 return $fallback;
             }
             $file = request()->file($input);
         }
 
         $extension = $file->extension();
+        $originalName = $file->getClientOriginalName();
+        Log::info('Upload File: Starting upload', [
+            'original_name' => $originalName,
+            'extension' => $extension,
+            'size' => $file->getSize(),
+            'mime_type' => $file->getMimeType()
+        ]);
+
         $this->validateFileExt($extension);
 
         $filename = now()->timestamp.Str::random(20).'.'.$extension;
         $directoryPath = 'uploads'.date('/y').'/'.date('m');
         $directory = env('FILE_UPLOAD_PATH', $directoryPath);
         $filePath = "$directory/$filename";
+        
+        Log::info('Upload File: Saving file', [
+            'file_path' => $filePath,
+            'directory' => $directory
+        ]);
+        
         Storage::put($filePath, file_get_contents($file));
+        $url = Storage::url($filePath);
+        
+        Log::info('Upload File: Success', [
+            'file_path' => $filePath,
+            'url' => $url
+        ]);
 
-        return Storage::url($filePath);
+        return $url;
     }
 
     public function unlinkPublicFile(?string $url = null): void
