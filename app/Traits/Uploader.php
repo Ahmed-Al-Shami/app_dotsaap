@@ -168,7 +168,7 @@ trait Uploader
         $filename = now()->timestamp.Str::random(20).'.'.$extension;
         $directoryPath = 'uploads'.date('/y').'/'.date('m');
         $directory = env('FILE_UPLOAD_PATH', $directoryPath);
-        $filePath = "$directory/$filename.$extension";
+        $filePath = "$directory/$filename";
         Storage::put($filePath, file_get_contents($file));
 
         return Storage::url($filePath);
