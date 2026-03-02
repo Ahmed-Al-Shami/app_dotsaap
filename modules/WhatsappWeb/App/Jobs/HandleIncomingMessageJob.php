@@ -25,13 +25,15 @@ class HandleIncomingMessageJob implements ShouldQueue
      */
     public function handle(): void
     {
-        if (! $this->platform) {
-            logOnDebug('WhatsappWeb: Platform not found for sessionId '.$this->payload['sessionId']);
+        if (!$this->platform) {
+            logOnDebug('WhatsappWeb: Platform not found for sessionId ' . $this->payload['sessionId']);
 
             return;
         }
 
-        $messages = data_get($this->payload, 'data.messages', []);
+        // Handle both MESSAGES_UPSERT (data.messages) and MESSAGES_UPDATE (data is an array)
+        $messages = data_get($this->payload, 'data.messages')
+            ?? data_get($this->payload, 'data', []);
 
         foreach ($messages as $message) {
             $this->handleMessage($message);

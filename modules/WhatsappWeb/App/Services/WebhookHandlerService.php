@@ -101,6 +101,22 @@ class WebhookHandlerService
         $this->liveChatNotifyEvent();
         UpdateMessageStatusJob::dispatch($this->payload);
 
+        // Also handle incoming messages that arrive via MESSAGES_UPDATE
+        // Some WA node server versions send new incoming messages as MESSAGES_UPDATE
+        $messages = data_get($this->payload, 'data', []);
+        $hasIncomingMessage = false;
+        foreach ($messages as $msg) {
+            $fromMe = data_get($msg, 'key.fromMe', true);
+            $hasMessage = data_get($msg, 'message') !== null;
+            if (!$fromMe && $hasMessage) {
+                $hasIncomingMessage = true;
+                break;
+            }
+        }
+        if ($hasIncomingMessage) {
+            HandleIncomingMessageJob::dispatch($this->payload);
+        }
+
         // Forward to external webhook if configured
         $this->forwardToExternalWebhook();
     }
