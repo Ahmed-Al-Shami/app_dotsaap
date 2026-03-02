@@ -123,7 +123,13 @@ class WebhookHandlerService
 
     public function messagesUpsert()
     {
-        \Illuminate\Support\Facades\Log::info('WhatsappWeb: Received messages.upsert for platform ' . $this->platform->uuid);
+        \Illuminate\Support\Facades\Log::info('[WaWeb UPSERT] Received MESSAGES_UPSERT', [
+            'webhook_url' => url()->current(),
+            'sessionId' => $this->payload['sessionId'] ?? null,
+            'event' => $this->payload['event'] ?? null,
+            'messages' => data_get($this->payload, 'data.messages'),
+            'raw_data' => $this->payload['data'] ?? null,
+        ]);
         $this->liveChatNotifyEvent();
         HandleIncomingMessageJob::dispatch($this->payload);
         UpdateMessageStatusJob::dispatch($this->payload);
