@@ -235,14 +235,17 @@ export default () => {
     })
   }
   function moduleLabel(name) {
+    if (!name || typeof name !== 'string') return name;
+
+    const normalized = name.toLowerCase().replace(/\s+/g, '');
     const modules = new Map([
       ['whatsapp', 'WaCloud'],
-      ['Whatsapp', 'WaCloud'],
-      ['Whatsapp Web', 'WaWeb'],
-      ['WhatsappWeb', 'WaWeb']
+      ['whatsappweb', 'WaWeb'],
+      ['waweb', 'WaWeb'],
+      ['wacloud', 'WaCloud']
     ])
 
-    return modules.get(name) || name
+    return modules.get(normalized) || name
   }
   function data_get(obj, path, defaultValue = null) {
     return path.split('.').reduce((acc, key) => acc?.[key], obj) ?? defaultValue

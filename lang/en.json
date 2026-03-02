@@ -1123,5 +1123,9 @@
   "External Webhook": "External Webhook",
   "Configured": "Configured",
   "Not Set": "Not Set",
-  "Webhook URL": "Webhook URL"
+  "Webhook URL": "Webhook URL",
+  "Web Messages": "Web Messages",
+  "Cloud Messages": "Cloud Messages",
+  "Phone Number Web Scraping Query": "Phone Number Web Scraping Query",
+  "Number Scanning": "Number Scanning"
 }

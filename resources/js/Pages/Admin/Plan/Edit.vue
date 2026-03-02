@@ -24,37 +24,31 @@ const { moduleLabel } = sharedComposable()
 const onModuleSelect = (value) => {
   const label = moduleLabel(value)
   if (label === 'WaWeb') {
-    form.plan_data = { ...form.plan_data, web_messages: { value: 0, overview: '' } }
+    form.plan_data.web_messages = { value: 0, overview: '' }
   }
   if (label === 'WaCloud') {
-    form.plan_data = { ...form.plan_data, cloud_messages: { value: 0, overview: '' } }
+    form.plan_data.cloud_messages = { value: 0, overview: '' }
   }
   if (label === 'Flow') {
-    form.plan_data = { ...form.plan_data, chat_flow: { value: 0, overview: '' } }
+    form.plan_data.chat_flow = { value: 0, overview: '' }
   }
 }
 const onModuleDeselect = (value) => {
   const label = moduleLabel(value)
   if (label === 'WaWeb') {
-    delete form.plan_data.web_messages
+    form.plan_data.web_messages = null
   }
   if (label === 'WaCloud') {
-    delete form.plan_data.cloud_messages
+    form.plan_data.cloud_messages = null
   }
   if (label === 'Flow') {
-    delete form.plan_data.chat_flow
+    form.plan_data.chat_flow = null
   }
 }
 const onModuleClear = () => {
-  if (form.plan_data.web_messages) {
-    delete form.plan_data.web_messages
-  }
-  if (form.plan_data.cloud_messages) {
-    delete form.plan_data.cloud_messages
-  }
-  if (form.plan_data.chat_flow) {
-    delete form.plan_data.chat_flow
-  }
+  form.plan_data.web_messages = null
+  form.plan_data.cloud_messages = null
+  form.plan_data.chat_flow = null
 }
 const addItem = () => {
   if (!Array.isArray(form.extra_data)) {
@@ -202,7 +196,7 @@ function update() {
           />
 
           <label class="label mb-1">{{ trans('Overview') }}</label>
-          <textarea v-model="form.plan_data.devices.overview" required class="input" />
+          <textarea v-model="form.plan_data.modules.overview" required class="input" />
         </div>
         <div class="my-2" v-if="form.plan_data.web_messages">
           <label class="label mb-1">{{ trans('Web Messages') }}</label>
