@@ -29,6 +29,9 @@ const onModuleSelect = (value) => {
   if (label === 'WaCloud') {
     form.plan_data = { ...form.plan_data, cloud_messages: { value: 0, overview: '' } }
   }
+  if (label === 'Flow') {
+    form.plan_data = { ...form.plan_data, chat_flow: { value: 0, overview: '' } }
+  }
 }
 const onModuleDeselect = (value) => {
   const label = moduleLabel(value)
@@ -38,6 +41,9 @@ const onModuleDeselect = (value) => {
   if (label === 'WaCloud') {
     delete form.plan_data.cloud_messages
   }
+  if (label === 'Flow') {
+    delete form.plan_data.chat_flow
+  }
 }
 const onModuleClear = () => {
   if (form.plan_data.web_messages) {
@@ -45,6 +51,9 @@ const onModuleClear = () => {
   }
   if (form.plan_data.cloud_messages) {
     delete form.plan_data.cloud_messages
+  }
+  if (form.plan_data.chat_flow) {
+    delete form.plan_data.chat_flow
   }
 }
 const addItem = () => {

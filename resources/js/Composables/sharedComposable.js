@@ -237,7 +237,9 @@ export default () => {
   function moduleLabel(name) {
     const modules = new Map([
       ['whatsapp', 'WaCloud'],
-      ['Whatsapp', 'WaCloud']
+      ['Whatsapp', 'WaCloud'],
+      ['Whatsapp Web', 'WaWeb'],
+      ['WhatsappWeb', 'WaWeb']
     ])
 
     return modules.get(name) || name

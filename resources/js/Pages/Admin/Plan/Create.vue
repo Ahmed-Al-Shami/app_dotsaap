@@ -53,7 +53,7 @@ const onModuleSelect = (value) => {
   if (label === 'WaCloud') {
     form.plan_data = { ...form.plan_data, cloud_messages: { value: 0, overview: '' } }
   }
-  if ((value = 'Flow')) {
+  if (label === 'Flow') {
     form.plan_data = { ...form.plan_data, chat_flow: { value: 0, overview: '' } }
   }
 }
@@ -76,7 +76,7 @@ const onModuleClear = () => {
   if (form.plan_data.cloud_messages) {
     delete form.plan_data.cloud_messages
   }
-  if (label === 'Flow') {
+  if (form.plan_data.chat_flow) {
     delete form.plan_data.chat_flow
   }
 }
