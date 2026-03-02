@@ -33,7 +33,7 @@ class UpdatePlanRequest extends FormRequest
             'plan_data.devices.overview' => 'nullable|string',
             'plan_data.web_messages.value' => [
                 Rule::requiredIf(function () {
-                    return in_array('whatsappweb', $this->input('plan_data.modules.value'));
+                    return in_array('Whatsapp Web', $this->input('plan_data.modules.value'));
                 }),
                 'integer'
             ],
@@ -45,7 +45,7 @@ class UpdatePlanRequest extends FormRequest
                 'integer'
             ],
             'plan_data.cloud_messages.overview' => 'nullable|string',
-            'plan_data.chat_flow.value' =>  [
+            'plan_data.chat_flow.value' => [
                 Rule::requiredIf(function () {
                     return in_array('Flow', $this->input('plan_data.modules.value'));
                 }),

@@ -68,7 +68,7 @@ class PlanPerks
             return self::resolveResponse(['status' => 'error', 'message' => __('Plan key not exist or user data mismatch!')]);
         }
 
-        if (! $user->plan_data) {
+        if (!$user->plan_data) {
             return self::resolveResponse(['status' => 'error', 'message' => __('Please purchase a plan access this feature!')]);
         }
 
@@ -83,7 +83,7 @@ class PlanPerks
         }
 
         if (is_numeric($planValue) && $resourceCount && $resourceCount >= $planValue) {
-            return self::resolveResponse(['status' => 'error', 'message' => 'You have reached your '.$planKey.' limit. Please upgrade your plan.']);
+            return self::resolveResponse(['status' => 'error', 'message' => 'You have reached your ' . $planKey . ' limit. Please upgrade your plan.']);
         }
 
         return true;
@@ -124,15 +124,9 @@ class PlanPerks
                 $cycleStart = $startDate;
                 $cycleEnd = $subscriptionEndDate;
             } elseif ($planDuration == 365) {
-                $daysPassed = $startDate->diffInDays($now);
-                $cyclesCompleted = floor($daysPassed / 30);
-                $cycleStart = $startDate->copy()->addDays($cyclesCompleted * 30);
-                $cycleEnd = $cycleStart->copy()->addDays(30);
-
-                // Don't exceed subscription end
-                if ($cycleEnd->greaterThan($subscriptionEndDate)) {
-                    $cycleEnd = $subscriptionEndDate;
-                }
+                // Return full year cycle for annual plans as requested
+                $cycleStart = $startDate;
+                $cycleEnd = $subscriptionEndDate;
             } else {
                 $cycleStart = Carbon::now()->startOfMonth();
                 $cycleEnd = $cycleStart->copy()->addDays(30);
@@ -168,11 +162,11 @@ class PlanPerks
 
     public static function planValue($planKey, ?User $user = null)
     {
-        if (! $user) {
+        if (!$user) {
             $user = activeWorkspaceOwner();
         }
         throw_unless($user, new \App\Exceptions\SessionException(__('User not found while checking plan value!')));
-        $value = data_get($user->plan_data, $planKey.'.value', 'N/A');
+        $value = data_get($user->plan_data, $planKey . '.value', 'N/A');
         if ($value === -1) {
             return 'Unlimited';
         }

@@ -68,6 +68,8 @@ class ChatController extends Controller
 
     public function sendMessage(Request $request)
     {
+        $platform = \App\Models\Platform::query()->where('uuid', $request->sessionId)->firstOrFail();
+        validateUserPlan('web_messages', false, $platform->owner_id);
 
         $message = $request->message;
 
@@ -79,7 +81,7 @@ class ChatController extends Controller
             ]);
 
             $file = $request->file('message.voice');
-            $directory = 'uploads'.date('/y').'/'.date('m');
+            $directory = 'uploads' . date('/y') . '/' . date('m');
             $uploadedUri = $file->store($directory);
             $message['voice'] = Storage::url($uploadedUri);
         }
@@ -118,7 +120,7 @@ class ChatController extends Controller
             'id' => $jid,
         ])->first();
 
-        if (! $chat) {
+        if (!$chat) {
             return response()->json([
                 'error' => 'Chat not found',
             ], 404);
@@ -138,9 +140,11 @@ class ChatController extends Controller
             }
         }
 
-        $chat->update([
-            'name' => $name,
-            'picture' => $uploadedFileUrl]
+        $chat->update(
+            [
+                'name' => $name,
+                'picture' => $uploadedFileUrl
+            ]
         );
 
         return response()->json([

@@ -14,7 +14,7 @@ class AppController extends Controller
 {
     public function sendMessage(Request $request, WhatsAppWebService $whatsAppWebService)
     {
-       
+
         $request->validate([
             'app_key' => ['required', 'exists:whatsapp_web_apps,key'],
             'auth_key' => ['required', 'exists:users,authKey'],
@@ -44,23 +44,25 @@ class AppController extends Controller
             )
             ->first();
 
-        if (! $app || ! $appUser) {
+        if (!$app || !$appUser) {
             return response()->json([
                 'success' => false,
                 'error' => 'Authentication failed',
             ], 401);
         }
 
+        validateUserPlan('web_messages', false, $appUser->id);
+
         $platformUuid = $app->platform?->uuid;
 
-        if (! $platformUuid) {
+        if (!$platformUuid) {
             return response()->json([
                 'success' => false,
                 'error' => 'Platform not found',
             ], 404);
         }
 
-        $jid = $request->get('to').'@s.whatsapp.net';
+        $jid = $request->get('to') . '@s.whatsapp.net';
 
         $type = $request->get('type', 'text');
         $message = [];

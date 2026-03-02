@@ -2,6 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { jidNormalizedUser, toNumber, isLidUser } from 'baileys';
 import { EventEmitter } from 'events';
+import logger from '../utils/logger.js';
 
 class ConcurrentStore extends EventEmitter {
     constructor(options = {}) {

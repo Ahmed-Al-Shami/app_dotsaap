@@ -46,6 +46,8 @@ class BulkSendController extends Controller
             ->where('owner_id', activeWorkspaceOwnerId())
             ->where('module', 'whatsapp-web')
             ->firstOrFail();
+
+        validateUserPlan('web_messages', false, activeWorkspaceOwnerId());
         $messageType = 'text';
         if ($form['message_type'] == 'text') {
             $message = ['text' => $form['message']];

@@ -239,13 +239,13 @@ function update() {
           <textarea v-model="form.plan_data.modules.overview" required class="input" />
         </div>
         <div class="my-2" v-if="form.plan_data.web_messages">
-          <label class="label mb-1">{{ trans('Web Messages (per month)') }}</label>
+          <label class="label mb-1">{{ trans('Web Messages') }}</label>
           <input type="number" v-model="form.plan_data.web_messages.value" required class="input" />
           <label class="label mb-1">{{ trans('Overview') }}</label>
           <textarea v-model="form.plan_data.web_messages.overview" class="input" />
         </div>
         <div class="my-2" v-if="form.plan_data?.cloud_messages">
-          <label class="label mb-1">{{ trans('Cloud Messages (per month)') }}</label>
+          <label class="label mb-1">{{ trans('Cloud Messages') }}</label>
           <input
             type="number"
             v-model="form.plan_data.cloud_messages.value"
@@ -319,7 +319,7 @@ function update() {
         </div>
         <div class="my-2">
           <label class="label mb-1">{{
-            trans('Phone Number Web Scraping Query (per month)')
+            trans('Phone Number Web Scraping Query')
           }}</label>
           <input type="number" v-model="form.plan_data.web_scrape.value" required class="input" />
 
@@ -341,7 +341,7 @@ function update() {
           <textarea v-model="form.plan_data.contacts.overview" required class="input" />
         </div>
         <div class="my-2">
-          <label class="label mb-1">{{ trans('Number Scanning (per month)') }}</label>
+          <label class="label mb-1">{{ trans('Number Scanning') }}</label>
           <input
             type="number"
             v-model="form.plan_data.number_scanner.value"

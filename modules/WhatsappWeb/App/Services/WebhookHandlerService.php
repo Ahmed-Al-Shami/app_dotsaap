@@ -35,11 +35,11 @@ class WebhookHandlerService
     public function handle()
     {
         $eventHandler = str($this->event)->replace('.', '-')->camel()->toString();
-        if (! empty($this->call)) {
+        if (!empty($this->call)) {
             return $this->execute($this->call);
         }
-        if (! method_exists($this, $eventHandler)) {
-            return response('Event handler not found: '.$eventHandler, 404);
+        if (!method_exists($this, $eventHandler)) {
+            return response('Event handler not found: ' . $eventHandler, 404);
         }
 
         return call_user_func([$this, $eventHandler]);
@@ -79,7 +79,7 @@ class WebhookHandlerService
         } elseif ($status == 'close') {
             $this->platform->update(['status' => 'disconnected']);
         }
-        
+
         // Forward connection status to external webhook
         $this->forwardToExternalWebhook();
     }
@@ -100,17 +100,18 @@ class WebhookHandlerService
     {
         $this->liveChatNotifyEvent();
         UpdateMessageStatusJob::dispatch($this->payload);
-        
+
         // Forward to external webhook if configured
         $this->forwardToExternalWebhook();
     }
 
     public function messagesUpsert()
     {
+        \Illuminate\Support\Facades\Log::info('WhatsappWeb: Received messages.upsert for platform ' . $this->platform->uuid);
         $this->liveChatNotifyEvent();
         HandleIncomingMessageJob::dispatch($this->payload);
         UpdateMessageStatusJob::dispatch($this->payload);
-        
+
         // Forward to external webhook if configured
         $this->forwardToExternalWebhook();
     }
@@ -132,7 +133,7 @@ class WebhookHandlerService
     private function forwardToExternalWebhook()
     {
         $webhookUrl = $this->platform->getMeta('webhook_callback_url');
-        
+
         if (!empty($webhookUrl)) {
             ForwardToExternalWebhookJob::dispatch($this->platform, $this->payload);
         }

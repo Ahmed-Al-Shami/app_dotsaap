@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Chat extends Model
 {
+    protected $connection = 'whatsapp_server';
+
     public $timestamps = false;
 
     public $primaryKey = 'pkId';
