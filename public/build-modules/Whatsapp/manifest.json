@@ -1,102 +1,98 @@
 {
-  "_AssetInput-D_06EOMO.js": {
-    "file": "assets/AssetInput-D_06EOMO.js",
+  "_AssetInput-DNvrxoIU.js": {
+    "file": "assets/AssetInput-DNvrxoIU.js",
     "name": "AssetInput",
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_assetStore-CRTuDG_T.js"
-    ]
-  },
-  "_AssetModal-CWaGrucV.js": {
-    "file": "assets/AssetModal-CWaGrucV.js",
-    "name": "AssetModal",
-    "imports": [
-      "modules/Whatsapp/resources/js/app.js",
-      "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_assetStore-CRTuDG_T.js"
-    ],
-    "css": [
-      "assets/AssetModal-CWoONquL.css"
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "_AssetModal-CWoONquL.css": {
     "file": "assets/AssetModal-CWoONquL.css",
     "src": "_AssetModal-CWoONquL.css"
   },
-  "_BlankLayout-C7xQ0UBM.js": {
-    "file": "assets/BlankLayout-C7xQ0UBM.js",
+  "_AssetModal-IvGGJ2_E.js": {
+    "file": "assets/AssetModal-IvGGJ2_E.js",
+    "name": "AssetModal",
+    "imports": [
+      "modules/Whatsapp/resources/js/app.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js",
+      "_assetStore-vVYzDL0m.js"
+    ],
+    "css": [
+      "assets/AssetModal-CWoONquL.css"
+    ]
+  },
+  "_BlankLayout-DORDTdGp.js": {
+    "file": "assets/BlankLayout-DORDTdGp.js",
     "name": "BlankLayout",
     "imports": [
-      "_ToastrContainer-Bkk7kk5A.js",
+      "_ToastrContainer-BNiwaC83.js",
       "modules/Whatsapp/resources/js/app.js"
     ]
   },
-  "_Create-CxmDKkDO.js": {
-    "file": "assets/Create-CxmDKkDO.js",
+  "_Create-Dgl6IU0a.js": {
+    "file": "assets/Create-Dgl6IU0a.js",
     "name": "Create",
     "isDynamicEntry": true,
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_SelectField-CEUUVeny.js",
-      "_BlankLayout-C7xQ0UBM.js",
-      "_InputField-DK89fRTX.js",
-      "_CreateForm-ml_UMOrA.js",
+      "_SelectField-Ch-I95bA.js",
+      "_BlankLayout-DORDTdGp.js",
+      "_InputField-DEUsOOga.js",
+      "_CreateForm-Dc3yo_hH.js",
       "modules/Whatsapp/resources/js/Components/MessagePreview.vue",
       "modules/Whatsapp/resources/js/Components/Preview/InteractiveMessage.vue",
-      "_ShortCodes-BabPkVzJ.js",
-      "_AssetModal-CWaGrucV.js",
-      "_AssetInput-D_06EOMO.js",
-      "_assetStore-CRTuDG_T.js",
-      "_InputField-CLsApZan.js"
+      "_ShortCodes-B14IHHik.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_AssetInput-DNvrxoIU.js",
+      "_assetStore-vVYzDL0m.js",
+      "_InputField-QR17ybSN.js"
     ]
   },
-  "_CreateForm-ml_UMOrA.js": {
-    "file": "assets/CreateForm-ml_UMOrA.js",
+  "_CreateForm-Dc3yo_hH.js": {
+    "file": "assets/CreateForm-Dc3yo_hH.js",
     "name": "CreateForm",
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_AssetInput-D_06EOMO.js",
-      "_InputField-DK89fRTX.js",
-      "_ShortCodes-BabPkVzJ.js"
+      "_AssetInput-DNvrxoIU.js",
+      "_InputField-DEUsOOga.js",
+      "_ShortCodes-B14IHHik.js"
     ]
   },
-  "_DotLoader-DEyxUd3d.js": {
-    "file": "assets/DotLoader-DEyxUd3d.js",
+  "_DotLoader-DoJKYb50.js": {
+    "file": "assets/DotLoader-DoJKYb50.js",
     "name": "DotLoader",
     "imports": [
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "modules/Whatsapp/resources/js/app.js"
     ]
   },
-  "_FilterDropdown-BCKZL43N.js": {
-    "file": "assets/FilterDropdown-BCKZL43N.js",
+  "_FilterDropdown-EyrNB0mc.js": {
+    "file": "assets/FilterDropdown-EyrNB0mc.js",
     "name": "FilterDropdown",
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_SpinnerBtn-AUjirXqh.js",
-      "_UserLayout-Br6IHeZb.js"
+      "_SpinnerBtn-BUAi-sF0.js",
+      "_UserLayout-aSxW_pxM.js"
     ]
   },
-  "_InputField-CLsApZan.js": {
-    "file": "assets/InputField-CLsApZan.js",
+  "_InputField-DEUsOOga.js": {
+    "file": "assets/InputField-DEUsOOga.js",
     "name": "InputField",
     "imports": [
       "modules/Whatsapp/resources/js/app.js"
     ]
   },
-  "_InputField-DK89fRTX.js": {
-    "file": "assets/InputField-DK89fRTX.js",
+  "_InputField-QR17ybSN.js": {
+    "file": "assets/InputField-QR17ybSN.js",
     "name": "InputField",
     "imports": [
       "modules/Whatsapp/resources/js/app.js"
     ]
   },
-  "_JsonHighlighter-B9wEKVKw.css": {
-    "file": "assets/JsonHighlighter-B9wEKVKw.css",
-    "src": "_JsonHighlighter-B9wEKVKw.css"
-  },
-  "_JsonHighlighter-NEVRWI0N.js": {
-    "file": "assets/JsonHighlighter-NEVRWI0N.js",
+  "_JsonHighlighter-B4XdZQnv.js": {
+    "file": "assets/JsonHighlighter-B4XdZQnv.js",
     "name": "JsonHighlighter",
     "imports": [
       "modules/Whatsapp/resources/js/app.js"
@@ -105,16 +101,20 @@
       "assets/JsonHighlighter-B9wEKVKw.css"
     ]
   },
-  "_MessageDownloadButton-B7fY6zqB.js": {
-    "file": "assets/MessageDownloadButton-B7fY6zqB.js",
+  "_JsonHighlighter-B9wEKVKw.css": {
+    "file": "assets/JsonHighlighter-B9wEKVKw.css",
+    "src": "_JsonHighlighter-B9wEKVKw.css"
+  },
+  "_MessageDownloadButton-DEfzqdNX.js": {
+    "file": "assets/MessageDownloadButton-DEfzqdNX.js",
     "name": "MessageDownloadButton",
     "imports": [
-      "_DotLoader-DEyxUd3d.js",
+      "_DotLoader-DoJKYb50.js",
       "modules/Whatsapp/resources/js/app.js"
     ]
   },
-  "_MultiSelect-DLW6ou6k.js": {
-    "file": "assets/MultiSelect-DLW6ou6k.js",
+  "_MultiSelect-DCq8C21O.js": {
+    "file": "assets/MultiSelect-DCq8C21O.js",
     "name": "MultiSelect",
     "imports": [
       "modules/Whatsapp/resources/js/app.js"
@@ -124,22 +124,22 @@
     "file": "assets/NoConversation-CAKzAqQK.css",
     "src": "_NoConversation-CAKzAqQK.css"
   },
-  "_NoConversation.vue_vue_type_script_setup_true_lang-BzOthi6t.js": {
-    "file": "assets/NoConversation.vue_vue_type_script_setup_true_lang-BzOthi6t.js",
+  "_NoConversation.vue_vue_type_script_setup_true_lang-hNfuFbTU.js": {
+    "file": "assets/NoConversation.vue_vue_type_script_setup_true_lang-hNfuFbTU.js",
     "name": "NoConversation.vue_vue_type_script_setup_true_lang",
     "imports": [
-      "_UserLayout-Br6IHeZb.js",
+      "_UserLayout-aSxW_pxM.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_AssetModal-CWaGrucV.js",
+      "_AssetModal-IvGGJ2_E.js",
       "_dynamic-import-helper-BheWnx7M.js",
       "_moment-BAtM24Ew.js",
-      "_DotLoader-DEyxUd3d.js",
-      "_assetStore-CRTuDG_T.js",
-      "_SpinnerBtn-AUjirXqh.js",
-      "_MultiSelect-DLW6ou6k.js",
-      "_NoDataFound-BMo6R2xy.js",
+      "_DotLoader-DoJKYb50.js",
+      "_assetStore-vVYzDL0m.js",
+      "_SpinnerBtn-BUAi-sF0.js",
+      "_MultiSelect-DCq8C21O.js",
+      "_NoDataFound-BDMGYe-C.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_echoServiceComposable-Bzp0fI07.js"
+      "_echoServiceComposable-D7eQEr0R.js"
     ],
     "dynamicImports": [
       "modules/Whatsapp/resources/js/Components/MessagePreview.vue",
@@ -149,79 +149,79 @@
       "assets/NoConversation-CAKzAqQK.css"
     ]
   },
-  "_NoDataFound-BMo6R2xy.js": {
-    "file": "assets/NoDataFound-BMo6R2xy.js",
+  "_NoDataFound-BDMGYe-C.js": {
+    "file": "assets/NoDataFound-BDMGYe-C.js",
     "name": "NoDataFound",
     "imports": [
       "modules/Whatsapp/resources/js/app.js"
     ]
   },
-  "_NotificationRing-DE0KXlbh.js": {
-    "file": "assets/NotificationRing-DE0KXlbh.js",
+  "_NotificationRing-QYA2rGSe.js": {
+    "file": "assets/NotificationRing-QYA2rGSe.js",
     "name": "NotificationRing",
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_echoServiceComposable-Bzp0fI07.js"
+      "_echoServiceComposable-D7eQEr0R.js"
     ]
   },
-  "_Paginate-Cpv8cjFG.js": {
-    "file": "assets/Paginate-Cpv8cjFG.js",
+  "_Paginate-BIC5jV3L.js": {
+    "file": "assets/Paginate-BIC5jV3L.js",
     "name": "Paginate",
     "imports": [
       "modules/Whatsapp/resources/js/app.js"
     ]
   },
-  "_SelectField-CEUUVeny.js": {
-    "file": "assets/SelectField-CEUUVeny.js",
+  "_SelectField-Ch-I95bA.js": {
+    "file": "assets/SelectField-Ch-I95bA.js",
     "name": "SelectField",
     "imports": [
       "modules/Whatsapp/resources/js/app.js"
     ]
   },
-  "_ShortCodes-BabPkVzJ.js": {
-    "file": "assets/ShortCodes-BabPkVzJ.js",
+  "_ShortCodes-B14IHHik.js": {
+    "file": "assets/ShortCodes-B14IHHik.js",
     "name": "ShortCodes",
     "imports": [
       "modules/Whatsapp/resources/js/app.js"
     ]
   },
-  "_SpinnerBtn-AUjirXqh.js": {
-    "file": "assets/SpinnerBtn-AUjirXqh.js",
+  "_SpinnerBtn-BUAi-sF0.js": {
+    "file": "assets/SpinnerBtn-BUAi-sF0.js",
     "name": "SpinnerBtn",
     "imports": [
       "modules/Whatsapp/resources/js/app.js"
     ]
   },
-  "_TextInput-BOqZwVK_.js": {
-    "file": "assets/TextInput-BOqZwVK_.js",
+  "_TextInput-TpNOF538.js": {
+    "file": "assets/TextInput-TpNOF538.js",
     "name": "TextInput",
     "imports": [
       "modules/Whatsapp/resources/js/app.js"
     ]
   },
-  "_ToastrContainer-Bkk7kk5A.js": {
-    "file": "assets/ToastrContainer-Bkk7kk5A.js",
+  "_ToastrContainer-BNiwaC83.js": {
+    "file": "assets/ToastrContainer-BNiwaC83.js",
     "name": "ToastrContainer",
     "imports": [
       "modules/Whatsapp/resources/js/app.js"
     ]
   },
-  "_UserLayout-Br6IHeZb.js": {
-    "file": "assets/UserLayout-Br6IHeZb.js",
+  "_UserLayout-aSxW_pxM.js": {
+    "file": "assets/UserLayout-aSxW_pxM.js",
     "name": "UserLayout",
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_ValidationErrors-MJY6JPWK.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js"
+      "_ValidationErrors-NkFyFHDp.js",
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js"
     ]
   },
   "_ValidationErrors-DM-CtaJh.css": {
     "file": "assets/ValidationErrors-DM-CtaJh.css",
     "src": "_ValidationErrors-DM-CtaJh.css"
   },
-  "_ValidationErrors-MJY6JPWK.js": {
-    "file": "assets/ValidationErrors-MJY6JPWK.js",
+  "_ValidationErrors-NkFyFHDp.js": {
+    "file": "assets/ValidationErrors-NkFyFHDp.js",
     "name": "ValidationErrors",
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
@@ -235,8 +235,8 @@
     "file": "assets/_plugin-vue_export-helper-DlAUqK2U.js",
     "name": "_plugin-vue_export-helper"
   },
-  "_assetStore-CRTuDG_T.js": {
-    "file": "assets/assetStore-CRTuDG_T.js",
+  "_assetStore-vVYzDL0m.js": {
+    "file": "assets/assetStore-vVYzDL0m.js",
     "name": "assetStore",
     "imports": [
       "modules/Whatsapp/resources/js/app.js"
@@ -246,8 +246,8 @@
     "file": "assets/dynamic-import-helper-BheWnx7M.js",
     "name": "dynamic-import-helper"
   },
-  "_echoServiceComposable-Bzp0fI07.js": {
-    "file": "assets/echoServiceComposable-Bzp0fI07.js",
+  "_echoServiceComposable-D7eQEr0R.js": {
+    "file": "assets/echoServiceComposable-D7eQEr0R.js",
     "name": "echoServiceComposable",
     "imports": [
       "modules/Whatsapp/resources/js/app.js"
@@ -257,8 +257,8 @@
     "file": "assets/moment-BAtM24Ew.js",
     "name": "moment"
   },
-  "_userDashboardStore-BhpoAEH_.js": {
-    "file": "assets/userDashboardStore-BhpoAEH_.js",
+  "_userDashboardStore-DbR2SB0e.js": {
+    "file": "assets/userDashboardStore-DbR2SB0e.js",
     "name": "userDashboardStore",
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
@@ -266,15 +266,15 @@
       "_moment-BAtM24Ew.js"
     ]
   },
-  "_vue3-apexcharts-C-C0RsIj.js": {
-    "file": "assets/vue3-apexcharts-C-C0RsIj.js",
+  "_vue3-apexcharts-BmcWtwZj.js": {
+    "file": "assets/vue3-apexcharts-BmcWtwZj.js",
     "name": "vue3-apexcharts",
     "imports": [
       "modules/Whatsapp/resources/js/app.js"
     ]
   },
   "modules/Whatsapp/resources/js/Components/MessagePreview.vue": {
-    "file": "assets/MessagePreview-LrLBvRmp.js",
+    "file": "assets/MessagePreview-ZiZ7rDRF.js",
     "name": "MessagePreview",
     "src": "modules/Whatsapp/resources/js/Components/MessagePreview.vue",
     "isDynamicEntry": true,
@@ -291,25 +291,25 @@
       "modules/Whatsapp/resources/js/Components/Preview/InteractiveMessage.vue",
       "modules/Whatsapp/resources/js/Components/Preview/LocationMessage.vue",
       "modules/Whatsapp/resources/js/Components/Preview/StickerMessage.vue",
-      "_Create-CxmDKkDO.js",
+      "_Create-Dgl6IU0a.js",
       "modules/Whatsapp/resources/js/Components/Preview/TextMessage.vue",
       "modules/Whatsapp/resources/js/Components/Preview/VideoMessage.vue"
     ]
   },
   "modules/Whatsapp/resources/js/Components/Preview/AudioMessage.vue": {
-    "file": "assets/AudioMessage-Vrogv6Ie.js",
+    "file": "assets/AudioMessage-DDFkWez4.js",
     "name": "AudioMessage",
     "src": "modules/Whatsapp/resources/js/Components/Preview/AudioMessage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MessageDownloadButton-B7fY6zqB.js",
+      "_MessageDownloadButton-DEfzqdNX.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_DotLoader-DEyxUd3d.js",
+      "_DotLoader-DoJKYb50.js",
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ]
   },
   "modules/Whatsapp/resources/js/Components/Preview/ContactMessage.vue": {
-    "file": "assets/ContactMessage-Bo1ycsyK.js",
+    "file": "assets/ContactMessage-D0duMH4i.js",
     "name": "ContactMessage",
     "src": "modules/Whatsapp/resources/js/Components/Preview/ContactMessage.vue",
     "isDynamicEntry": true,
@@ -322,7 +322,7 @@
     ]
   },
   "modules/Whatsapp/resources/js/Components/Preview/ContactsMessage.vue": {
-    "file": "assets/ContactsMessage-T4UaMwfO.js",
+    "file": "assets/ContactsMessage-vcDNILuZ.js",
     "name": "ContactsMessage",
     "src": "modules/Whatsapp/resources/js/Components/Preview/ContactsMessage.vue",
     "isDynamicEntry": true,
@@ -331,31 +331,31 @@
     ]
   },
   "modules/Whatsapp/resources/js/Components/Preview/DocumentMessage.vue": {
-    "file": "assets/DocumentMessage-DtWYbxEp.js",
+    "file": "assets/DocumentMessage-DTlq93hj.js",
     "name": "DocumentMessage",
     "src": "modules/Whatsapp/resources/js/Components/Preview/DocumentMessage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MessageDownloadButton-B7fY6zqB.js",
+      "_MessageDownloadButton-DEfzqdNX.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_DotLoader-DEyxUd3d.js",
+      "_DotLoader-DoJKYb50.js",
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ]
   },
   "modules/Whatsapp/resources/js/Components/Preview/ImageMessage.vue": {
-    "file": "assets/ImageMessage-Cb3AInhf.js",
+    "file": "assets/ImageMessage-DTwtv-oq.js",
     "name": "ImageMessage",
     "src": "modules/Whatsapp/resources/js/Components/Preview/ImageMessage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MessageDownloadButton-B7fY6zqB.js",
+      "_MessageDownloadButton-DEfzqdNX.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_DotLoader-DEyxUd3d.js",
+      "_DotLoader-DoJKYb50.js",
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ]
   },
   "modules/Whatsapp/resources/js/Components/Preview/InteractiveMessage.vue": {
-    "file": "assets/InteractiveMessage-DI_EbudE.js",
+    "file": "assets/InteractiveMessage-CPVOlBUP.js",
     "name": "InteractiveMessage",
     "src": "modules/Whatsapp/resources/js/Components/Preview/InteractiveMessage.vue",
     "isDynamicEntry": true,
@@ -364,7 +364,7 @@
     ]
   },
   "modules/Whatsapp/resources/js/Components/Preview/LocationMessage.vue": {
-    "file": "assets/LocationMessage-DjvbGK-o.js",
+    "file": "assets/LocationMessage-CSlzz7aP.js",
     "name": "LocationMessage",
     "src": "modules/Whatsapp/resources/js/Components/Preview/LocationMessage.vue",
     "isDynamicEntry": true,
@@ -373,7 +373,7 @@
     ]
   },
   "modules/Whatsapp/resources/js/Components/Preview/StickerMessage.vue": {
-    "file": "assets/StickerMessage-DSgaypaB.js",
+    "file": "assets/StickerMessage-CN0kwI4d.js",
     "name": "StickerMessage",
     "src": "modules/Whatsapp/resources/js/Components/Preview/StickerMessage.vue",
     "isDynamicEntry": true,
@@ -382,7 +382,7 @@
     ]
   },
   "modules/Whatsapp/resources/js/Components/Preview/TextMessage.vue": {
-    "file": "assets/TextMessage-DOnqIEkl.js",
+    "file": "assets/TextMessage-CuySXveT.js",
     "name": "TextMessage",
     "src": "modules/Whatsapp/resources/js/Components/Preview/TextMessage.vue",
     "isDynamicEntry": true,
@@ -391,252 +391,252 @@
     ]
   },
   "modules/Whatsapp/resources/js/Components/Preview/VideoMessage.vue": {
-    "file": "assets/VideoMessage-B-bpzwJN.js",
+    "file": "assets/VideoMessage-CyFv2MCM.js",
     "name": "VideoMessage",
     "src": "modules/Whatsapp/resources/js/Components/Preview/VideoMessage.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MessageDownloadButton-B7fY6zqB.js",
+      "_MessageDownloadButton-DEfzqdNX.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_DotLoader-DEyxUd3d.js",
+      "_DotLoader-DoJKYb50.js",
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Apps/Index.vue": {
-    "file": "assets/Index-nPaXUw50.js",
+    "file": "assets/Index-B1lod3gE.js",
     "name": "Index",
     "src": "modules/Whatsapp/resources/js/Pages/Apps/Index.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
       "_moment-BAtM24Ew.js",
-      "_UserLayout-Br6IHeZb.js",
-      "_FilterDropdown-BCKZL43N.js",
-      "_Paginate-Cpv8cjFG.js",
-      "_NoDataFound-BMo6R2xy.js",
-      "_SpinnerBtn-AUjirXqh.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_UserLayout-aSxW_pxM.js",
+      "_FilterDropdown-EyrNB0mc.js",
+      "_Paginate-BIC5jV3L.js",
+      "_NoDataFound-BDMGYe-C.js",
+      "_SpinnerBtn-BUAi-sF0.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js"
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Apps/Integration.vue": {
-    "file": "assets/Integration-B5hFSp5o.js",
+    "file": "assets/Integration-CDULG8Qt.js",
     "name": "Integration",
     "src": "modules/Whatsapp/resources/js/Pages/Apps/Integration.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_JsonHighlighter-NEVRWI0N.js",
-      "_UserLayout-Br6IHeZb.js",
+      "_JsonHighlighter-B4XdZQnv.js",
+      "_UserLayout-aSxW_pxM.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js"
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Apps/Logs.vue": {
-    "file": "assets/Logs-DvnuQl01.js",
+    "file": "assets/Logs-ofqomD71.js",
     "name": "Logs",
     "src": "modules/Whatsapp/resources/js/Pages/Apps/Logs.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_NoDataFound-BMo6R2xy.js",
-      "_Paginate-Cpv8cjFG.js",
-      "_JsonHighlighter-NEVRWI0N.js",
-      "_UserLayout-Br6IHeZb.js",
+      "_NoDataFound-BDMGYe-C.js",
+      "_Paginate-BIC5jV3L.js",
+      "_JsonHighlighter-B4XdZQnv.js",
+      "_UserLayout-aSxW_pxM.js",
       "_moment-BAtM24Ew.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js"
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/AutoReplies/Create.vue": {
-    "file": "assets/Create-BqBtFLZW.js",
+    "file": "assets/Create-DaxZk9jS.js",
     "name": "Create",
     "src": "modules/Whatsapp/resources/js/Pages/AutoReplies/Create.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_SpinnerBtn-AUjirXqh.js",
-      "_ValidationErrors-MJY6JPWK.js",
-      "_MultiSelect-DLW6ou6k.js",
-      "_SelectField-CEUUVeny.js",
-      "_BlankLayout-C7xQ0UBM.js",
+      "_SpinnerBtn-BUAi-sF0.js",
+      "_ValidationErrors-NkFyFHDp.js",
+      "_MultiSelect-DCq8C21O.js",
+      "_SelectField-Ch-I95bA.js",
+      "_BlankLayout-DORDTdGp.js",
       "modules/Whatsapp/resources/js/Components/Preview/InteractiveMessage.vue",
-      "_ShortCodes-BabPkVzJ.js",
+      "_ShortCodes-B14IHHik.js",
       "modules/Whatsapp/resources/js/Pages/Templates/PreviewIndex.vue",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
+      "_ToastrContainer-BNiwaC83.js",
       "_dynamic-import-helper-BheWnx7M.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/AutoReplies/Index.vue": {
-    "file": "assets/Index-DMY0rYAP.js",
+    "file": "assets/Index-B39X4IU1.js",
     "name": "Index",
     "src": "modules/Whatsapp/resources/js/Pages/AutoReplies/Index.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_Paginate-Cpv8cjFG.js",
-      "_NoDataFound-BMo6R2xy.js",
-      "_UserLayout-Br6IHeZb.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_Paginate-BIC5jV3L.js",
+      "_NoDataFound-BDMGYe-C.js",
+      "_UserLayout-aSxW_pxM.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js"
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Campaigns/Index.vue": {
-    "file": "assets/Index-02S74gQH.js",
+    "file": "assets/Index-BJCyPzid.js",
     "name": "Index",
     "src": "modules/Whatsapp/resources/js/Pages/Campaigns/Index.vue",
     "isDynamicEntry": true,
     "imports": [
       "_moment-BAtM24Ew.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_Paginate-Cpv8cjFG.js",
-      "_NoDataFound-BMo6R2xy.js",
-      "_UserLayout-Br6IHeZb.js",
-      "_FilterDropdown-BCKZL43N.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_Paginate-BIC5jV3L.js",
+      "_NoDataFound-BDMGYe-C.js",
+      "_UserLayout-aSxW_pxM.js",
+      "_FilterDropdown-EyrNB0mc.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js",
-      "_SpinnerBtn-AUjirXqh.js"
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js",
+      "_SpinnerBtn-BUAi-sF0.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Campaigns/Logs.vue": {
-    "file": "assets/Logs-BjLswQKI.js",
+    "file": "assets/Logs-BV0DKXHY.js",
     "name": "Logs",
     "src": "modules/Whatsapp/resources/js/Pages/Campaigns/Logs.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_vue3-apexcharts-C-C0RsIj.js",
-      "_Paginate-Cpv8cjFG.js",
-      "_NoDataFound-BMo6R2xy.js",
-      "_UserLayout-Br6IHeZb.js",
+      "_vue3-apexcharts-BmcWtwZj.js",
+      "_Paginate-BIC5jV3L.js",
+      "_NoDataFound-BDMGYe-C.js",
+      "_UserLayout-aSxW_pxM.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js"
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Chats/Index.vue": {
-    "file": "assets/Index-DLyDh54S.js",
+    "file": "assets/Index-BztCFhmy.js",
     "name": "Index",
     "src": "modules/Whatsapp/resources/js/Pages/Chats/Index.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_NoConversation.vue_vue_type_script_setup_true_lang-BzOthi6t.js",
-      "_UserLayout-Br6IHeZb.js",
+      "_NoConversation.vue_vue_type_script_setup_true_lang-hNfuFbTU.js",
+      "_UserLayout-aSxW_pxM.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_SpinnerBtn-AUjirXqh.js",
-      "_CreateForm-ml_UMOrA.js",
+      "_SpinnerBtn-BUAi-sF0.js",
+      "_CreateForm-Dc3yo_hH.js",
       "modules/Whatsapp/resources/js/Components/Preview/InteractiveMessage.vue",
       "modules/Whatsapp/resources/js/Pages/Templates/FormIndex.vue",
       "modules/Whatsapp/resources/js/Pages/Templates/PreviewIndex.vue",
-      "_AssetModal-CWaGrucV.js",
+      "_AssetModal-IvGGJ2_E.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_assetStore-CRTuDG_T.js",
+      "_assetStore-vVYzDL0m.js",
       "_dynamic-import-helper-BheWnx7M.js",
       "_moment-BAtM24Ew.js",
-      "_DotLoader-DEyxUd3d.js",
-      "_MultiSelect-DLW6ou6k.js",
-      "_NoDataFound-BMo6R2xy.js",
-      "_echoServiceComposable-Bzp0fI07.js",
-      "_ValidationErrors-MJY6JPWK.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetInput-D_06EOMO.js",
-      "_InputField-DK89fRTX.js",
-      "_ShortCodes-BabPkVzJ.js"
+      "_DotLoader-DoJKYb50.js",
+      "_MultiSelect-DCq8C21O.js",
+      "_NoDataFound-BDMGYe-C.js",
+      "_echoServiceComposable-D7eQEr0R.js",
+      "_ValidationErrors-NkFyFHDp.js",
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetInput-DNvrxoIU.js",
+      "_InputField-DEUsOOga.js",
+      "_ShortCodes-B14IHHik.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Customers/Create.vue": {
-    "file": "assets/Create-dO3fMW34.js",
+    "file": "assets/Create-CoaC9WWS.js",
     "name": "Create",
     "src": "modules/Whatsapp/resources/js/Pages/Customers/Create.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_SpinnerBtn-AUjirXqh.js",
-      "_UserLayout-Br6IHeZb.js",
-      "_InputField-CLsApZan.js",
-      "_AssetInput-D_06EOMO.js",
-      "_MultiSelect-DLW6ou6k.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_SpinnerBtn-BUAi-sF0.js",
+      "_UserLayout-aSxW_pxM.js",
+      "_InputField-QR17ybSN.js",
+      "_AssetInput-DNvrxoIU.js",
+      "_MultiSelect-DCq8C21O.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js"
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Customers/Edit.vue": {
-    "file": "assets/Edit-xuUKnRjt.js",
+    "file": "assets/Edit-ssyhWv_O.js",
     "name": "Edit",
     "src": "modules/Whatsapp/resources/js/Pages/Customers/Edit.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_SpinnerBtn-AUjirXqh.js",
-      "_UserLayout-Br6IHeZb.js",
-      "_AssetInput-D_06EOMO.js",
-      "_InputField-CLsApZan.js",
-      "_MultiSelect-DLW6ou6k.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_SpinnerBtn-BUAi-sF0.js",
+      "_UserLayout-aSxW_pxM.js",
+      "_AssetInput-DNvrxoIU.js",
+      "_InputField-QR17ybSN.js",
+      "_MultiSelect-DCq8C21O.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js"
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Customers/Index.vue": {
-    "file": "assets/Index-9i82WwoV.js",
+    "file": "assets/Index-CwqXgPnb.js",
     "name": "Index",
     "src": "modules/Whatsapp/resources/js/Pages/Customers/Index.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_MultiSelect-DLW6ou6k.js",
-      "_FilterDropdown-BCKZL43N.js",
-      "_Paginate-Cpv8cjFG.js",
-      "_SpinnerBtn-AUjirXqh.js",
-      "_NoDataFound-BMo6R2xy.js",
-      "_UserLayout-Br6IHeZb.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_MultiSelect-DCq8C21O.js",
+      "_FilterDropdown-EyrNB0mc.js",
+      "_Paginate-BIC5jV3L.js",
+      "_SpinnerBtn-BUAi-sF0.js",
+      "_NoDataFound-BDMGYe-C.js",
+      "_UserLayout-aSxW_pxM.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js"
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Dashboard.vue": {
-    "file": "assets/Dashboard-BPYflyG_.js",
+    "file": "assets/Dashboard-BTNymASs.js",
     "name": "Dashboard",
     "src": "modules/Whatsapp/resources/js/Pages/Dashboard.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_vue3-apexcharts-C-C0RsIj.js",
-      "_UserLayout-Br6IHeZb.js",
-      "_NotificationRing-DE0KXlbh.js",
-      "_userDashboardStore-BhpoAEH_.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_vue3-apexcharts-BmcWtwZj.js",
+      "_UserLayout-aSxW_pxM.js",
+      "_NotificationRing-QYA2rGSe.js",
+      "_userDashboardStore-DbR2SB0e.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js",
-      "_echoServiceComposable-Bzp0fI07.js",
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js",
+      "_echoServiceComposable-D7eQEr0R.js",
       "_moment-BAtM24Ew.js"
     ],
     "dynamicImports": [
@@ -644,213 +644,213 @@
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Groups/Index.vue": {
-    "file": "assets/Index-TdV8YcUu.js",
+    "file": "assets/Index-C_vyd5sB.js",
     "name": "Index",
     "src": "modules/Whatsapp/resources/js/Pages/Groups/Index.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_Paginate-Cpv8cjFG.js",
-      "_NoDataFound-BMo6R2xy.js",
-      "_SpinnerBtn-AUjirXqh.js",
-      "_UserLayout-Br6IHeZb.js",
-      "_FilterDropdown-BCKZL43N.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_Paginate-BIC5jV3L.js",
+      "_NoDataFound-BDMGYe-C.js",
+      "_SpinnerBtn-BUAi-sF0.js",
+      "_UserLayout-aSxW_pxM.js",
+      "_FilterDropdown-EyrNB0mc.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js"
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Index.vue": {
-    "file": "assets/Index-DWzXW-Qu.js",
+    "file": "assets/Index-BM9TQj23.js",
     "name": "Index",
     "src": "modules/Whatsapp/resources/js/Pages/Index.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_vue3-apexcharts-C-C0RsIj.js",
-      "_UserLayout-Br6IHeZb.js",
-      "_NotificationRing-DE0KXlbh.js",
-      "_userDashboardStore-BhpoAEH_.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_vue3-apexcharts-BmcWtwZj.js",
+      "_UserLayout-aSxW_pxM.js",
+      "_NotificationRing-QYA2rGSe.js",
+      "_userDashboardStore-DbR2SB0e.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js",
-      "_echoServiceComposable-Bzp0fI07.js",
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js",
+      "_echoServiceComposable-D7eQEr0R.js",
       "_moment-BAtM24Ew.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Platforms/Create.vue": {
-    "file": "assets/Create-Bon84WF8.js",
+    "file": "assets/Create-CZhapEEg.js",
     "name": "Create",
     "src": "modules/Whatsapp/resources/js/Pages/Platforms/Create.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_UserLayout-Br6IHeZb.js",
-      "_SpinnerBtn-AUjirXqh.js",
-      "_InputField-DK89fRTX.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_UserLayout-aSxW_pxM.js",
+      "_SpinnerBtn-BUAi-sF0.js",
+      "_InputField-DEUsOOga.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js"
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Platforms/Index.vue": {
-    "file": "assets/Index-ROR9JET9.js",
+    "file": "assets/Index-B5jQscFL.js",
     "name": "Index",
     "src": "modules/Whatsapp/resources/js/Pages/Platforms/Index.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_NotificationRing-DE0KXlbh.js",
-      "_FilterDropdown-BCKZL43N.js",
-      "_Paginate-Cpv8cjFG.js",
-      "_NoDataFound-BMo6R2xy.js",
+      "_NotificationRing-QYA2rGSe.js",
+      "_FilterDropdown-EyrNB0mc.js",
+      "_Paginate-BIC5jV3L.js",
+      "_NoDataFound-BDMGYe-C.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_SpinnerBtn-AUjirXqh.js",
-      "_UserLayout-Br6IHeZb.js",
-      "_echoServiceComposable-Bzp0fI07.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_SpinnerBtn-BUAi-sF0.js",
+      "_UserLayout-aSxW_pxM.js",
+      "_echoServiceComposable-D7eQEr0R.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js"
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Platforms/Logs.vue": {
-    "file": "assets/Logs-Sqt_UZTH.js",
+    "file": "assets/Logs-DcC7ooqf.js",
     "name": "Logs",
     "src": "modules/Whatsapp/resources/js/Pages/Platforms/Logs.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Paginate-Cpv8cjFG.js",
-      "_NoDataFound-BMo6R2xy.js",
+      "_Paginate-BIC5jV3L.js",
+      "_NoDataFound-BDMGYe-C.js",
       "modules/Whatsapp/resources/js/app.js",
       "_moment-BAtM24Ew.js",
-      "_UserLayout-Br6IHeZb.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_UserLayout-aSxW_pxM.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js"
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Platforms/Show.vue": {
-    "file": "assets/Show-CvZRkbqp.js",
+    "file": "assets/Show-BOhP6spy.js",
     "name": "Show",
     "src": "modules/Whatsapp/resources/js/Pages/Platforms/Show.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_NoConversation.vue_vue_type_script_setup_true_lang-BzOthi6t.js",
-      "_UserLayout-Br6IHeZb.js",
+      "_NoConversation.vue_vue_type_script_setup_true_lang-hNfuFbTU.js",
+      "_UserLayout-aSxW_pxM.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_AssetModal-CWaGrucV.js",
+      "_AssetModal-IvGGJ2_E.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_assetStore-CRTuDG_T.js",
+      "_assetStore-vVYzDL0m.js",
       "_dynamic-import-helper-BheWnx7M.js",
       "_moment-BAtM24Ew.js",
-      "_DotLoader-DEyxUd3d.js",
-      "_SpinnerBtn-AUjirXqh.js",
-      "_MultiSelect-DLW6ou6k.js",
-      "_NoDataFound-BMo6R2xy.js",
-      "_echoServiceComposable-Bzp0fI07.js",
-      "_ValidationErrors-MJY6JPWK.js",
-      "_ToastrContainer-Bkk7kk5A.js"
+      "_DotLoader-DoJKYb50.js",
+      "_SpinnerBtn-BUAi-sF0.js",
+      "_MultiSelect-DCq8C21O.js",
+      "_NoDataFound-BDMGYe-C.js",
+      "_echoServiceComposable-D7eQEr0R.js",
+      "_ValidationErrors-NkFyFHDp.js",
+      "_ToastrContainer-BNiwaC83.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Platforms/qr-codes/Index.vue": {
-    "file": "assets/Index-CL_abJzn.js",
+    "file": "assets/Index-DQ15082e.js",
     "name": "Index",
     "src": "modules/Whatsapp/resources/js/Pages/Platforms/qr-codes/Index.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_Paginate-Cpv8cjFG.js",
-      "_NoDataFound-BMo6R2xy.js",
-      "_SpinnerBtn-AUjirXqh.js",
-      "_UserLayout-Br6IHeZb.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_Paginate-BIC5jV3L.js",
+      "_NoDataFound-BDMGYe-C.js",
+      "_SpinnerBtn-BUAi-sF0.js",
+      "_UserLayout-aSxW_pxM.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js"
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/QuickReplies/Create.vue": {
-    "file": "assets/Create-B6j2jCE4.js",
+    "file": "assets/Create-K-o95pbO.js",
     "name": "Create",
     "src": "modules/Whatsapp/resources/js/Pages/QuickReplies/Create.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_SelectField-CEUUVeny.js",
-      "_SpinnerBtn-AUjirXqh.js",
-      "_UserLayout-Br6IHeZb.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_SelectField-Ch-I95bA.js",
+      "_SpinnerBtn-BUAi-sF0.js",
+      "_UserLayout-aSxW_pxM.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js"
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/QuickReplies/Index.vue": {
-    "file": "assets/Index-B0FGE3q7.js",
+    "file": "assets/Index-CdOp0gPJ.js",
     "name": "Index",
     "src": "modules/Whatsapp/resources/js/Pages/QuickReplies/Index.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Paginate-Cpv8cjFG.js",
-      "_NoDataFound-BMo6R2xy.js",
+      "_Paginate-BIC5jV3L.js",
+      "_NoDataFound-BDMGYe-C.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_UserLayout-Br6IHeZb.js",
-      "_FilterDropdown-BCKZL43N.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_UserLayout-aSxW_pxM.js",
+      "_FilterDropdown-EyrNB0mc.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js",
-      "_SpinnerBtn-AUjirXqh.js"
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js",
+      "_SpinnerBtn-BUAi-sF0.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/Create.vue": {
-    "file": "assets/Create-DPnpMoB9.js",
+    "file": "assets/Create-CPUDJOAr.js",
     "name": "Create",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/Create.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_AssetModal-CWaGrucV.js",
-      "_SelectField-CEUUVeny.js",
-      "_BlankLayout-C7xQ0UBM.js",
-      "_InputField-DK89fRTX.js",
-      "_CreateForm-ml_UMOrA.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_SelectField-Ch-I95bA.js",
+      "_BlankLayout-DORDTdGp.js",
+      "_InputField-DEUsOOga.js",
+      "_CreateForm-Dc3yo_hH.js",
       "modules/Whatsapp/resources/js/Components/Preview/InteractiveMessage.vue",
       "modules/Whatsapp/resources/js/Pages/Templates/FormIndex.vue",
       "modules/Whatsapp/resources/js/Pages/Templates/PreviewIndex.vue",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_assetStore-CRTuDG_T.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetInput-D_06EOMO.js",
-      "_ShortCodes-BabPkVzJ.js",
+      "_assetStore-vVYzDL0m.js",
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetInput-DNvrxoIU.js",
+      "_ShortCodes-B14IHHik.js",
       "_dynamic-import-helper-BheWnx7M.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/Form/Audio.vue": {
-    "file": "assets/Audio-B7hB4S2J.js",
+    "file": "assets/Audio-C0kaWB6Z.js",
     "name": "Audio",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/Form/Audio.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_AssetInput-D_06EOMO.js",
+      "_AssetInput-DNvrxoIU.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_assetStore-CRTuDG_T.js"
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/Form/Contact.vue": {
-    "file": "assets/Contact-DYExtJas.js",
+    "file": "assets/Contact-B80zzzgY.js",
     "name": "Contact",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/Form/Contact.vue",
     "isDynamicEntry": true,
@@ -859,31 +859,31 @@
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/Form/Document.vue": {
-    "file": "assets/Document-Cdx1mVLz.js",
+    "file": "assets/Document-CGMuUzfW.js",
     "name": "Document",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/Form/Document.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_TextInput-BOqZwVK_.js",
-      "_AssetInput-D_06EOMO.js",
+      "_TextInput-TpNOF538.js",
+      "_AssetInput-DNvrxoIU.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_assetStore-CRTuDG_T.js"
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/Form/Image.vue": {
-    "file": "assets/Image-DGqVotob.js",
+    "file": "assets/Image-BbAcqDBt.js",
     "name": "Image",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/Form/Image.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_TextInput-BOqZwVK_.js",
-      "_AssetInput-D_06EOMO.js",
+      "_TextInput-TpNOF538.js",
+      "_AssetInput-DNvrxoIU.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_assetStore-CRTuDG_T.js"
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/Form/Location.vue": {
-    "file": "assets/Location-DCGQvdg4.js",
+    "file": "assets/Location-BvcbACDq.js",
     "name": "Location",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/Form/Location.vue",
     "isDynamicEntry": true,
@@ -892,29 +892,29 @@
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/Form/Text.vue": {
-    "file": "assets/Text-DgGFoKTh.js",
+    "file": "assets/Text-vq2fAA56.js",
     "name": "Text",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/Form/Text.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/Whatsapp/resources/js/app.js",
-      "_ShortCodes-BabPkVzJ.js"
+      "_ShortCodes-B14IHHik.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/Form/Video.vue": {
-    "file": "assets/Video-BQGjVJ1h.js",
+    "file": "assets/Video-Bdptn9NX.js",
     "name": "Video",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/Form/Video.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_TextInput-BOqZwVK_.js",
-      "_AssetInput-D_06EOMO.js",
+      "_TextInput-TpNOF538.js",
+      "_AssetInput-DNvrxoIU.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_assetStore-CRTuDG_T.js"
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/FormIndex.vue": {
-    "file": "assets/FormIndex-CX-Ilrza.js",
+    "file": "assets/FormIndex-CED6BBC5.js",
     "name": "FormIndex",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/FormIndex.vue",
     "isDynamicEntry": true,
@@ -933,38 +933,38 @@
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/Index.vue": {
-    "file": "assets/Index-Bs2lcWPJ.js",
+    "file": "assets/Index-DsMoR-DW.js",
     "name": "Index",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/Index.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_FilterDropdown-BCKZL43N.js",
-      "_Paginate-Cpv8cjFG.js",
-      "_NoDataFound-BMo6R2xy.js",
+      "_FilterDropdown-EyrNB0mc.js",
+      "_Paginate-BIC5jV3L.js",
+      "_NoDataFound-BDMGYe-C.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_UserLayout-Br6IHeZb.js",
-      "_SpinnerBtn-AUjirXqh.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_UserLayout-aSxW_pxM.js",
+      "_SpinnerBtn-BUAi-sF0.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js"
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/Preview/Audio.vue": {
-    "file": "assets/Audio-CxQwXx4A.js",
+    "file": "assets/Audio-Bl1YYWi7.js",
     "name": "Audio",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/Preview/Audio.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MessageDownloadButton-B7fY6zqB.js",
+      "_MessageDownloadButton-DEfzqdNX.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_DotLoader-DEyxUd3d.js",
+      "_DotLoader-DoJKYb50.js",
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/Preview/Contact.vue": {
-    "file": "assets/Contact-DiE1gv8h.js",
+    "file": "assets/Contact-aObg6va4.js",
     "name": "Contact",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/Preview/Contact.vue",
     "isDynamicEntry": true,
@@ -977,19 +977,19 @@
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/Preview/Document.vue": {
-    "file": "assets/Document-C7ri8Trs.js",
+    "file": "assets/Document-6NsjqHz1.js",
     "name": "Document",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/Preview/Document.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MessageDownloadButton-B7fY6zqB.js",
+      "_MessageDownloadButton-DEfzqdNX.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_DotLoader-DEyxUd3d.js",
+      "_DotLoader-DoJKYb50.js",
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/Preview/Image.vue": {
-    "file": "assets/Image-C0T09ooh.js",
+    "file": "assets/Image-C9R_6d_i.js",
     "name": "Image",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/Preview/Image.vue",
     "isDynamicEntry": true,
@@ -998,7 +998,7 @@
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/Preview/Location.vue": {
-    "file": "assets/Location-BZF6CbC0.js",
+    "file": "assets/Location-CuuDIkQA.js",
     "name": "Location",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/Preview/Location.vue",
     "isDynamicEntry": true,
@@ -1007,7 +1007,7 @@
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/Preview/Text.vue": {
-    "file": "assets/Text-DmFlLM8_.js",
+    "file": "assets/Text-C13Cm6KP.js",
     "name": "Text",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/Preview/Text.vue",
     "isDynamicEntry": true,
@@ -1016,19 +1016,19 @@
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/Preview/Video.vue": {
-    "file": "assets/Video-BqSDcG0w.js",
+    "file": "assets/Video-CxarO2Ie.js",
     "name": "Video",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/Preview/Video.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_MessageDownloadButton-B7fY6zqB.js",
+      "_MessageDownloadButton-DEfzqdNX.js",
       "modules/Whatsapp/resources/js/app.js",
-      "_DotLoader-DEyxUd3d.js",
+      "_DotLoader-DoJKYb50.js",
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/PreviewIndex.vue": {
-    "file": "assets/PreviewIndex-BOqCrzG8.js",
+    "file": "assets/PreviewIndex-R2BU-AnY.js",
     "name": "PreviewIndex",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/PreviewIndex.vue",
     "isDynamicEntry": true,
@@ -1047,25 +1047,25 @@
     ]
   },
   "modules/Whatsapp/resources/js/Pages/Templates/Show.vue": {
-    "file": "assets/Show-DTavpZv1.js",
+    "file": "assets/Show-BIe9ty4i.js",
     "name": "Show",
     "src": "modules/Whatsapp/resources/js/Pages/Templates/Show.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_UserLayout-Br6IHeZb.js",
+      "_UserLayout-aSxW_pxM.js",
       "modules/Whatsapp/resources/js/Components/Preview/InteractiveMessage.vue",
       "modules/Whatsapp/resources/js/Pages/Templates/PreviewIndex.vue",
       "modules/Whatsapp/resources/js/app.js",
-      "_ValidationErrors-MJY6JPWK.js",
+      "_ValidationErrors-NkFyFHDp.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
-      "_ToastrContainer-Bkk7kk5A.js",
-      "_AssetModal-CWaGrucV.js",
-      "_assetStore-CRTuDG_T.js",
+      "_ToastrContainer-BNiwaC83.js",
+      "_AssetModal-IvGGJ2_E.js",
+      "_assetStore-vVYzDL0m.js",
       "_dynamic-import-helper-BheWnx7M.js"
     ]
   },
   "modules/Whatsapp/resources/js/app.js": {
-    "file": "assets/app-BYM_31EU.js",
+    "file": "assets/app-CL6j6ToE.js",
     "name": "app",
     "src": "modules/Whatsapp/resources/js/app.js",
     "isEntry": true,
@@ -1076,7 +1076,7 @@
       "modules/Whatsapp/resources/js/Pages/Apps/Logs.vue",
       "modules/Whatsapp/resources/js/Pages/AutoReplies/Create.vue",
       "modules/Whatsapp/resources/js/Pages/AutoReplies/Index.vue",
-      "_Create-CxmDKkDO.js",
+      "_Create-Dgl6IU0a.js",
       "modules/Whatsapp/resources/js/Pages/Campaigns/Index.vue",
       "modules/Whatsapp/resources/js/Pages/Campaigns/Logs.vue",
       "modules/Whatsapp/resources/js/Pages/Chats/Index.vue",
@@ -1138,12 +1138,12 @@
     "src": "node_modules/boxicons/fonts/boxicons.woff2"
   },
   "resources/css/app.css": {
-    "file": "assets/app-Bk4uGJa5.css",
+    "file": "assets/app-COSEcMgJ.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/Components/Dashboard/OverviewGrid.vue": {
-    "file": "assets/OverviewGrid-B_tdKSjI.js",
+    "file": "assets/OverviewGrid-CDvABeRz.js",
     "name": "OverviewGrid",
     "src": "resources/js/Components/Dashboard/OverviewGrid.vue",
     "isDynamicEntry": true,

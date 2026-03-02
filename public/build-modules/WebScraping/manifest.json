@@ -1,20 +1,20 @@
 {
-  "_NoDataFound-B0kBiikb.js": {
-    "file": "assets/NoDataFound-B0kBiikb.js",
+  "_NoDataFound-CyiB3uho.js": {
+    "file": "assets/NoDataFound-CyiB3uho.js",
     "name": "NoDataFound",
     "imports": [
       "modules/WebScraping/resources/js/app.js"
     ]
   },
-  "_SpinnerBtn-DP041vHx.js": {
-    "file": "assets/SpinnerBtn-DP041vHx.js",
+  "_SpinnerBtn-qHTvODU7.js": {
+    "file": "assets/SpinnerBtn-qHTvODU7.js",
     "name": "SpinnerBtn",
     "imports": [
       "modules/WebScraping/resources/js/app.js"
     ]
   },
-  "_UserLayout-B0wgvAR7.js": {
-    "file": "assets/UserLayout-B0wgvAR7.js",
+  "_UserLayout-C2MmrKGF.js": {
+    "file": "assets/UserLayout-C2MmrKGF.js",
     "name": "UserLayout",
     "imports": [
       "modules/WebScraping/resources/js/app.js"
@@ -31,41 +31,41 @@
     "src": "_UserLayout-Dl9qzJ5H.css"
   },
   "modules/WebScraping/resources/js/Pages/WebScraping/Create.vue": {
-    "file": "assets/Create-DqCvcrEZ.js",
+    "file": "assets/Create-C4Ig5k3r.js",
     "name": "Create",
     "src": "modules/WebScraping/resources/js/Pages/WebScraping/Create.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/WebScraping/resources/js/app.js",
-      "_UserLayout-B0wgvAR7.js",
-      "_SpinnerBtn-DP041vHx.js"
+      "_UserLayout-C2MmrKGF.js",
+      "_SpinnerBtn-qHTvODU7.js"
     ]
   },
   "modules/WebScraping/resources/js/Pages/WebScraping/Index.vue": {
-    "file": "assets/Index-B9-8syi1.js",
+    "file": "assets/Index-BU_WqWRc.js",
     "name": "Index",
     "src": "modules/WebScraping/resources/js/Pages/WebScraping/Index.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_NoDataFound-B0kBiikb.js",
-      "_UserLayout-B0wgvAR7.js",
+      "_NoDataFound-CyiB3uho.js",
+      "_UserLayout-C2MmrKGF.js",
       "modules/WebScraping/resources/js/app.js"
     ]
   },
   "modules/WebScraping/resources/js/Pages/WebScraping/Show.vue": {
-    "file": "assets/Show-B6pqvZOo.js",
+    "file": "assets/Show-CgmdbK9x.js",
     "name": "Show",
     "src": "modules/WebScraping/resources/js/Pages/WebScraping/Show.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_UserLayout-B0wgvAR7.js",
+      "_UserLayout-C2MmrKGF.js",
       "modules/WebScraping/resources/js/app.js",
-      "_NoDataFound-B0kBiikb.js",
-      "_SpinnerBtn-DP041vHx.js"
+      "_NoDataFound-CyiB3uho.js",
+      "_SpinnerBtn-qHTvODU7.js"
     ]
   },
   "modules/WebScraping/resources/js/app.js": {
-    "file": "assets/app-Bf0VAbsw.js",
+    "file": "assets/app-CzfUnvYM.js",
     "name": "app",
     "src": "modules/WebScraping/resources/js/app.js",
     "isEntry": true,
@@ -99,12 +99,12 @@
     "src": "node_modules/boxicons/fonts/boxicons.woff2"
   },
   "resources/css/app.css": {
-    "file": "assets/app-Bk4uGJa5.css",
+    "file": "assets/app-COSEcMgJ.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/Components/Dashboard/OverviewGrid.vue": {
-    "file": "assets/OverviewGrid-rXE5K_4g.js",
+    "file": "assets/OverviewGrid-DJH7sYNF.js",
     "name": "OverviewGrid",
     "src": "resources/js/Components/Dashboard/OverviewGrid.vue",
     "isDynamicEntry": true,

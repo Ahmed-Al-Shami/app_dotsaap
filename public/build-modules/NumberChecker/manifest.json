@@ -1,6 +1,6 @@
 {
   "modules/NumberChecker/resources/js/Pages/Scanner/Index.vue": {
-    "file": "assets/Index-DMvD2tJ0.js",
+    "file": "assets/Index-25Vzo1N8.js",
     "name": "Index",
     "src": "modules/NumberChecker/resources/js/Pages/Scanner/Index.vue",
     "isDynamicEntry": true,
@@ -12,7 +12,7 @@
     ]
   },
   "modules/NumberChecker/resources/js/app.js": {
-    "file": "assets/app-X3rL0qr6.js",
+    "file": "assets/app-CGXBk8fe.js",
     "name": "app",
     "src": "modules/NumberChecker/resources/js/app.js",
     "isEntry": true,
@@ -44,7 +44,7 @@
     "src": "node_modules/boxicons/fonts/boxicons.woff2"
   },
   "resources/css/app.css": {
-    "file": "assets/app-Bk4uGJa5.css",
+    "file": "assets/app-COSEcMgJ.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },

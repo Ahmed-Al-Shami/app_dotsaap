@@ -1,6 +1,6 @@
 {
-  "_InputField-BPlHvaG7.js": {
-    "file": "assets/InputField-BPlHvaG7.js",
+  "_InputField-BNAsF7u2.js": {
+    "file": "assets/InputField-BNAsF7u2.js",
     "name": "InputField",
     "imports": [
       "modules/QAReply/resources/js/app.js"
@@ -10,8 +10,8 @@
     "file": "assets/UserLayout-Dl9qzJ5H.css",
     "src": "_UserLayout-Dl9qzJ5H.css"
   },
-  "_UserLayout-rDOD85wq.js": {
-    "file": "assets/UserLayout-rDOD85wq.js",
+  "_UserLayout-h_ijUPzZ.js": {
+    "file": "assets/UserLayout-h_ijUPzZ.js",
     "name": "UserLayout",
     "imports": [
       "modules/QAReply/resources/js/app.js"
@@ -24,39 +24,39 @@
     ]
   },
   "modules/QAReply/resources/js/Pages/QAReplies/Create.vue": {
-    "file": "assets/Create-CxIFvw6F.js",
+    "file": "assets/Create-D_XRsh__.js",
     "name": "Create",
     "src": "modules/QAReply/resources/js/Pages/QAReplies/Create.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/QAReply/resources/js/app.js",
-      "_UserLayout-rDOD85wq.js",
-      "_InputField-BPlHvaG7.js"
+      "_UserLayout-h_ijUPzZ.js",
+      "_InputField-BNAsF7u2.js"
     ]
   },
   "modules/QAReply/resources/js/Pages/QAReplies/Index.vue": {
-    "file": "assets/Index-D-Jf5ypk.js",
+    "file": "assets/Index-B81ST75g.js",
     "name": "Index",
     "src": "modules/QAReply/resources/js/Pages/QAReplies/Index.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_UserLayout-rDOD85wq.js",
+      "_UserLayout-h_ijUPzZ.js",
       "modules/QAReply/resources/js/app.js",
-      "_InputField-BPlHvaG7.js"
+      "_InputField-BNAsF7u2.js"
     ]
   },
   "modules/QAReply/resources/js/Pages/QAReplies/Show.vue": {
-    "file": "assets/Show-ndw5QyRp.js",
+    "file": "assets/Show-Bbk0wCGC.js",
     "name": "Show",
     "src": "modules/QAReply/resources/js/Pages/QAReplies/Show.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_UserLayout-rDOD85wq.js",
+      "_UserLayout-h_ijUPzZ.js",
       "modules/QAReply/resources/js/app.js"
     ]
   },
   "modules/QAReply/resources/js/app.js": {
-    "file": "assets/app-DOXviqYP.js",
+    "file": "assets/app-Bl9F6o8F.js",
     "name": "app",
     "src": "modules/QAReply/resources/js/app.js",
     "isEntry": true,
@@ -90,12 +90,12 @@
     "src": "node_modules/boxicons/fonts/boxicons.woff2"
   },
   "resources/css/app.css": {
-    "file": "assets/app-Bk4uGJa5.css",
+    "file": "assets/app-COSEcMgJ.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/Components/Dashboard/OverviewGrid.vue": {
-    "file": "assets/OverviewGrid-C8Vvg6-I.js",
+    "file": "assets/OverviewGrid-Ygl_TQ_I.js",
     "name": "OverviewGrid",
     "src": "resources/js/Components/Dashboard/OverviewGrid.vue",
     "isDynamicEntry": true,

@@ -3,6 +3,7 @@ import AdminLayout from '@/Layouts/Admin/AdminLayout.vue'
 import SpinnerBtn from '@/Components/Dashboard/SpinnerBtn.vue'
 import Multiselect from '@vueform/multiselect'
 import { useForm } from '@inertiajs/vue3'
+import { watch } from 'vue'
 import toast from '@/Composables/toastComposable'
 import sharedComposable from '@/Composables/sharedComposable'
 defineOptions({ layout: AdminLayout })
@@ -21,35 +22,42 @@ const defaultExtraData = {
   value: ''
 }
 const { moduleLabel } = sharedComposable()
-const onModuleSelect = (value) => {
-  const label = moduleLabel(value)
-  if (label === 'WaWeb') {
-    form.plan_data.web_messages = { value: 0, overview: '' }
-  }
-  if (label === 'WaCloud') {
-    form.plan_data.cloud_messages = { value: 0, overview: '' }
-  }
-  if (label === 'Flow') {
-    form.plan_data.chat_flow = { value: 0, overview: '' }
-  }
-}
-const onModuleDeselect = (value) => {
-  const label = moduleLabel(value)
-  if (label === 'WaWeb') {
-    form.plan_data.web_messages = null
-  }
-  if (label === 'WaCloud') {
-    form.plan_data.cloud_messages = null
-  }
-  if (label === 'Flow') {
-    form.plan_data.chat_flow = null
-  }
-}
-const onModuleClear = () => {
-  form.plan_data.web_messages = null
-  form.plan_data.cloud_messages = null
-  form.plan_data.chat_flow = null
-}
+
+watch(
+  () => form.plan_data.modules?.value,
+  (newValues) => {
+    if (!newValues || !Array.isArray(newValues)) return
+
+    const hasWaWeb = newValues.some((v) => moduleLabel(v) === 'WaWeb')
+    const hasWaCloud = newValues.some((v) => moduleLabel(v) === 'WaCloud')
+    const hasFlow = newValues.some((v) => moduleLabel(v) === 'Flow')
+
+    if (hasWaWeb) {
+      if (!form.plan_data.web_messages) {
+        form.plan_data.web_messages = { value: 0, overview: '' }
+      }
+    } else {
+      form.plan_data.web_messages = null
+    }
+
+    if (hasWaCloud) {
+      if (!form.plan_data.cloud_messages) {
+        form.plan_data.cloud_messages = { value: 0, overview: '' }
+      }
+    } else {
+      form.plan_data.cloud_messages = null
+    }
+
+    if (hasFlow) {
+      if (!form.plan_data.chat_flow) {
+        form.plan_data.chat_flow = { value: 0, overview: '' }
+      }
+    } else {
+      form.plan_data.chat_flow = null
+    }
+  },
+  { deep: true, immediate: true }
+)
 const addItem = () => {
   if (!Array.isArray(form.extra_data)) {
     form.extra_data = []
@@ -184,9 +192,6 @@ function update() {
           <label class="label mb-1">{{ trans('Modules Access') }}</label>
 
           <Multiselect
-            @select="onModuleSelect"
-            @deselect="onModuleDeselect"
-            @clear="onModuleClear"
             class="multiselect-dark"
             v-model="form.plan_data.modules.value"
             mode="tags"

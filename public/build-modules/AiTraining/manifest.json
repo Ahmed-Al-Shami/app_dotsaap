@@ -1,6 +1,6 @@
 {
-  "_SpinnerBtn-tEtn_0fY.js": {
-    "file": "assets/SpinnerBtn-tEtn_0fY.js",
+  "_SpinnerBtn-D2MTTdUR.js": {
+    "file": "assets/SpinnerBtn-D2MTTdUR.js",
     "name": "SpinnerBtn",
     "imports": [
       "modules/AiTraining/resources/js/app.js"
@@ -10,8 +10,8 @@
     "file": "assets/UserLayout-Dl9qzJ5H.css",
     "src": "_UserLayout-Dl9qzJ5H.css"
   },
-  "_UserLayout-ZJnFgH6-.js": {
-    "file": "assets/UserLayout-ZJnFgH6-.js",
+  "_UserLayout-DwMSBHUM.js": {
+    "file": "assets/UserLayout-DwMSBHUM.js",
     "name": "UserLayout",
     "imports": [
       "modules/AiTraining/resources/js/app.js"
@@ -24,39 +24,39 @@
     ]
   },
   "modules/AiTraining/resources/js/Pages/AiTraining/Create.vue": {
-    "file": "assets/Create-hZoIaaDK.js",
+    "file": "assets/Create-D-giz6a8.js",
     "name": "Create",
     "src": "modules/AiTraining/resources/js/Pages/AiTraining/Create.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/AiTraining/resources/js/app.js",
-      "_UserLayout-ZJnFgH6-.js",
-      "_SpinnerBtn-tEtn_0fY.js"
+      "_UserLayout-DwMSBHUM.js",
+      "_SpinnerBtn-D2MTTdUR.js"
     ]
   },
   "modules/AiTraining/resources/js/Pages/AiTraining/Index.vue": {
-    "file": "assets/Index-Jpul2UVV.js",
+    "file": "assets/Index-AtSjQdmo.js",
     "name": "Index",
     "src": "modules/AiTraining/resources/js/Pages/AiTraining/Index.vue",
     "isDynamicEntry": true,
     "imports": [
       "modules/AiTraining/resources/js/app.js",
-      "_UserLayout-ZJnFgH6-.js",
-      "_SpinnerBtn-tEtn_0fY.js"
+      "_UserLayout-DwMSBHUM.js",
+      "_SpinnerBtn-D2MTTdUR.js"
     ]
   },
   "modules/AiTraining/resources/js/Pages/AiTraining/Show.vue": {
-    "file": "assets/Show-D53vUeW4.js",
+    "file": "assets/Show-CeogWmJ0.js",
     "name": "Show",
     "src": "modules/AiTraining/resources/js/Pages/AiTraining/Show.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_UserLayout-ZJnFgH6-.js",
+      "_UserLayout-DwMSBHUM.js",
       "modules/AiTraining/resources/js/app.js"
     ]
   },
   "modules/AiTraining/resources/js/app.js": {
-    "file": "assets/app-DFR9ukeL.js",
+    "file": "assets/app-DO3v4syw.js",
     "name": "app",
     "src": "modules/AiTraining/resources/js/app.js",
     "isEntry": true,
@@ -90,12 +90,12 @@
     "src": "node_modules/boxicons/fonts/boxicons.woff2"
   },
   "resources/css/app.css": {
-    "file": "assets/app-Bk4uGJa5.css",
+    "file": "assets/app-COSEcMgJ.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/Components/Dashboard/OverviewGrid.vue": {
-    "file": "assets/OverviewGrid-Bcr1gTAp.js",
+    "file": "assets/OverviewGrid-Dai9aNpC.js",
     "name": "OverviewGrid",
     "src": "resources/js/Components/Dashboard/OverviewGrid.vue",
     "isDynamicEntry": true,
