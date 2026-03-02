@@ -146,7 +146,11 @@ class WebhookHandlerService
 
     private function liveChatNotifyEvent()
     {
-        LiveChatNotifyEvent::broadcast($this->payload, $this->platform->owner_id, 'whatsapp-web')->toOthers();
+        try {
+            LiveChatNotifyEvent::broadcast($this->payload, $this->platform->owner_id, 'whatsapp-web')->toOthers();
+        } catch (\Throwable $e) {
+            \Illuminate\Support\Facades\Log::warning('[WaWeb] liveChatNotifyEvent failed: ' . $e->getMessage());
+        }
     }
 
     /**

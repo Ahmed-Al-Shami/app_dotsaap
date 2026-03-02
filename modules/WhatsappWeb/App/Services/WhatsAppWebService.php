@@ -26,7 +26,7 @@ class WhatsAppWebService
 
     public function setJid(string $jid)
     {
-        $jid = str_replace('+','',$jid);
+        $jid = str_replace('+', '', $jid);
         return "{$jid}@s.whatsapp.net";
     }
 
@@ -35,6 +35,10 @@ class WhatsAppWebService
         $parameters = [
             'id' => $sessionId,
             'typeAuth' => 'qr',
+            'webhook' => [
+                'url' => route('user.whatsapp-web.api.webhook'),
+                'events' => ['ALL'],
+            ],
         ];
         if ($this->findSession($sessionId)->successful()) {
             $this->deleteSession($sessionId);
@@ -44,21 +48,21 @@ class WhatsAppWebService
             $parameters = array_merge($parameters, ...$args);
         }
         $response = $this->apiClient()->post('/sessions/add', $parameters);
-  if ($response instanceof \Illuminate\Http\Client\Response) {
-        $status = $response->status();
-        $body = $response->json() ?? [];
-    } else {
-        // لو response بالفعل array
-        $status = $response['status'] ?? 0;
-        $body = $response['data'] ?? $response;
-    }
+        if ($response instanceof \Illuminate\Http\Client\Response) {
+            $status = $response->status();
+            $body = $response->json() ?? [];
+        } else {
+            // لو response بالفعل array
+            $status = $response['status'] ?? 0;
+            $body = $response['data'] ?? $response;
+        }
 
-    \Illuminate\Support\Facades\Log::info("WhatsAppWeb API Call", [
-        'parameters' => $parameters,
-        'status' => $status,
-        'response' => $body,
-        'timestamp' => now()->toDateTimeString(),
-    ]);
+        \Illuminate\Support\Facades\Log::info("WhatsAppWeb API Call", [
+            'parameters' => $parameters,
+            'status' => $status,
+            'response' => $body,
+            'timestamp' => now()->toDateTimeString(),
+        ]);
         return $response->json();
     }
 
@@ -115,7 +119,7 @@ class WhatsAppWebService
             'message' => [],
         ];
 
-        if (! empty($options)) {
+        if (!empty($options)) {
             $data['options'] = $options;
         }
 
